@@ -1,0 +1,56 @@
+﻿<Window x:Class="MambrinoVictoria.Programa.RegistroUs"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MambrinoVictoria.Programa"
+        mc:Ignorable="d"
+        Height="500" Width="500">
+
+    <Window.Resources>
+        <ResourceDictionary Source="/HojaEstilos/Estilos.xaml"/>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="50*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150*"/>
+            <ColumnDefinition Width="250*"/>
+            <ColumnDefinition Width="100*"/>
+
+        </Grid.ColumnDefinitions>
+
+        <Rectangle Grid.Row="0" Grid.Column="0" Grid.RowSpan="8" Fill="#FFB0E2FF"/>
+        <Rectangle Grid.Row="0" Grid.Column="1" Grid.RowSpan="8" Fill="#FF003DF9"/>
+        <Rectangle Grid.Row="0" Grid.Column="2" Grid.RowSpan="8" Fill="#FF376FC9"/>
+
+        <Label Content="Registro" HorizontalAlignment="Center" VerticalAlignment="Center" Height="45" Width="135" FontWeight="Bold" FontSize="30" Foreground="#FFF7AC33" FontFamily="Arial" Grid.Column="0" Grid.ColumnSpan="3"/>
+
+        <Label Style="{DynamicResource TextoNegro}" Content="Nombre " Grid.Row="1" Grid.Column="0" Margin="0,0,10,0" HorizontalAlignment="Right"/>
+        <Label Style="{DynamicResource TextoNegro}" Content="Apellidos " Grid.Row="2" Grid.Column="0" Margin="0,0,10,0" Height="51" HorizontalAlignment="Right"/>
+        <Label Style="{DynamicResource TextoNegro}" Content="Usuario " Grid.Row="3" Grid.Column="0" Margin="0,0,10,0" Height="51" HorizontalAlignment="Right"/>
+        <Label Style="{DynamicResource TextoNegro}" Content="Perfil " Grid.Row="4" Grid.Column="0" Margin="0,0,10,0" Height="51" HorizontalAlignment="Right"/>
+        <Label Style="{DynamicResource TextoNegro}" Content="Contraseña " Grid.Row="5" Grid.Column="0" Margin="0,0,10,0" Height="51" HorizontalAlignment="Right"/>
+        <Label Style="{DynamicResource TextoNegro}" Content="Centro " Grid.Row="6" Grid.Column="0" Margin="0,0,10,0" Height="51" HorizontalAlignment="Right"/>
+
+        <TextBox Style="{DynamicResource CuadroTexto}" x:Name="nombre" Grid.Row="1" Grid.Column="1"/>
+        <TextBox Style="{DynamicResource CuadroTexto}" x:Name="apellidos" Grid.Row="2" Grid.Column="1"/>
+        <TextBox Style="{DynamicResource CuadroTexto}" x:Name="email" Grid.Row="3" Grid.Column="1"/>
+        <TextBox Style="{DynamicResource CuadroTexto}" x:Name="contraseña" Grid.Row="5" Grid.Column="1"/>
+
+        <ComboBox Style="{DynamicResource ComboBoxStyle1}" x:Name="perfil" Grid.Column="1" Grid.Row="4" SelectedIndex="2"/>
+        <ComboBox Style="{DynamicResource ComboBoxStyle1}" x:Name="centro" Grid.Column="1" Grid.Row="6" SelectedIndex="9"/>
+
+        <Button x:Name="aceptar" Style="{DynamicResource BotonSimple}" Content="Aceptar" Grid.Column="2" Grid.Row="7" Click="aceptar_Click"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,1315 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MambrinoVictoria</name>
+    </assembly>
+    <members>
+        <member name="T:MambrinoVictoria.BaseDeDatos.BDD">
+            <summary>
+            Clase que se utiliza para la gestion de la base de datos
+            </summary>
+        </member>
+        <member name="P:MambrinoVictoria.BaseDeDatos.BDD.Usuario">
+            <summary>
+            Obtiene o establece el nombre de usuario, puerto, servidor, contraseña para la conexion a la base de datos
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.#ctor">
+            <summary>
+            Constructor privado para evitar instanciacion externa
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.InstanciaBDD">
+            <summary>
+            Obtiene la instancia unica de la base de datos
+            </summary>
+            <returns>Instancia unica de la base de datos</returns>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.Conexion">
+            <summary>
+            Establece la conexion a la base de datos utilizando los parametros de configuracion
+            </summary>
+            <returns>Devuelve true si la conexion se ha realizado corectamente y false si no</returns>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.RestablecerBDD">
+            <summary>
+            Metodo que se utiliza para restablece la base de datos eliminando registros de agunas tablas y restaurando usuario administrador
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.ModificarUsuarioAdmin(System.String,System.String)">
+            <summary>
+            Metodo que se utiliza para modificar el usuario y la contraseña del usuario administrador
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.AgregarUsuario(System.String,System.String,System.String,System.Int32,System.String,System.Int32)">
+            <summary>
+            Metodo que se utiliza para registrar un nuevo usuario
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.IniciarSesion(System.String,System.String)">
+            <summary>
+            Metodo que se utiliza para iniciar sesion
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.AgregarPaciente(System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Metodo que se utiliza para registrar un nuevo paciente en la base de datos
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.MostrarPaciente(System.Int32)">
+            <summary>
+            Metodo que se utiliza para mostrar la informacion del paciente seleccionado
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.ModificarPaciente(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Metodo que se utiliza para modificar la informacion de un paciente seleccionado registrado
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerRoles">
+            <summary>
+            Metodo que se utiliza para obtener los roles de los usuarios
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerNombresUsuarios(System.Int32)">
+            <summary>
+            Metodo que se utiliza para obtener los nombres de los usuarios existentes por su perfil
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerComunidadesA">
+            <summary>
+            Metodo que se utiliza para mostrar las comunidades autonomas
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerProvinciasPorComunidad(System.String)">
+            <summary>
+            Metodo que se utiliza para mostrar las provincias segun la comunidad autonoma
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerAreaSalud">
+            <summary>
+            Metodo que se utiliza para mostrar los areas de salud
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerZonaBasicaporArea(System.String)">
+            <summary>
+            Metodo que se utiliza para obtener las zonas basicas de salud segun el area de salud seleccionado
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerCAP(System.String)">
+            <summary>
+            Metodo que se utiliza para obtener los centros de atencion primaria
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerUsuarios">
+            <summary>
+            Metodo que se utiliza para mostrar los usuarios registrados
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerNombresCentros">
+            <summary>
+            Metodo que se utiliza para obtener los nombres de los Hospitales
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerIdCentro(System.String)">
+            <summary>
+            Metodo que se utiliza para obtener el id del centro seleccionado
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerCamasPorPlantas(System.Int32,System.Int32)">
+            <summary>
+            Metodo que se utiliza para obtener las camas segun la planta y el hospital seleccionado
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerIdCama(System.String,System.Int32)">
+            <summary>
+            Metodo que se utiliza para obtener el id de la cama seleccionada
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.ComprobarCamaBloqueada(System.Int32)">
+            <summary>
+            Metodo que se utiliza para obtener el estado de la cama
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.BloquearCama(System.Int32,System.Boolean)">
+            <summary>
+            Metodo que se utiliza para cambiar el estado de bloqueo de la cama a S o N
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.PacienteIngresadoEnCama(System.Int32)">
+            <summary>
+            Metodo que se utiliza para comprobar si un paciente tiene una cama asignada
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.BuscarPacientesPorZonaBasica(System.String)">
+            <summary>
+            Metodo que se utiliza para buscar pacientes pertenecientes a una zona basica
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.VerificarExistenciaNIF(System.String)">
+            <summary>
+            Metodo que se utiliza para verificar la existencia de un paciente por su NIF
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.VerificarExistenciaNumeroSS(System.String)">
+            <summary>
+            Metodo que se utiliza para verificar la existencia de un paciente por su número de la seguridad social
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.VerificarExistenciaTIS(System.String)">
+            <summary>
+            Metodo que se utiliza para verificar la existencia de un paciente por su TIS
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.IngresarPaciente(System.String,System.Int32,System.DateTime,System.TimeSpan,System.Int32,System.Int32)">
+            <summary>
+            Metodo que se utiliza para ingresar un paciente en una cama
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerNIFporHNC(System.Int32)">
+            <summary>
+            Metodo que se utiliza para obtener el NIF del paciente a traves de su NHC
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerNHCporNIF(System.String)">
+            <summary>
+            Metodo que se utiliza para obtener el NHC del paciente a traves de su NIF
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerNHCporIdCama(System.Int32)">
+            <summary>
+            Metodo que se utiliza para obtener el NHC del paciente ingresado en una cama especifica
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerNIFPaciente(System.String)">
+            <summary>
+            Metodo que se utiliza para obtener el NIF del paciente por su nombre y apellidos
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.VerificarPacienteIngresado(System.Int32)">
+            <summary>
+            Metodo que se utiliza verificar si un pacinte ya se encuentra ingresado en una cama
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerSexoPaciente(System.Int32)">
+            <summary>
+            Metodo que se utiliza para obtener el sexo del paciente seleccionado
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerAlertaPaciente(System.Int32)">
+            <summary>
+            Metodo que se utiliza para averiguar si un paciente tiene o no alguna alerta
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.CrearAlerta(System.String,System.String,System.DateTime,System.Int32)">
+            <summary>
+            Metodo que se utiliza para crear una alerta para un paciente
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.MostrarAlerta(System.Int32)">
+            <summary>
+            Metodo que se utiliza para mostrar las alertas de un paciente
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.ActualizarAlerta(System.String,System.String,System.DateTime,System.Int32)">
+            <summary>
+            Metodo que se utiliza para actualizar una alerta
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.MostrarInfoPacienteSeleccionado(System.Int32)">
+            <summary>
+            Metodo que se utiliza para mostrar la información de un paciente seleccionado
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerEdadPaciente(System.Int32)">
+            <summary>
+            Metodo que se utiliza para obtener la edad de un paciente seleccionado
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.CalcularEdad(System.DateTime)">
+            <summary>
+            Método auxiliar para calcular la edad a partir de la fecha de nacimiento
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.MostrarInfoAlertaPaciente(System.Int32)">
+            <summary>
+            Metodo que se utiliza para obtener la descripcion de una alerta
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerSintomaDiagnosticoPorPaciente(System.Int32)">
+            <summary>
+            Metodo que se utiliza para obtener los sintomas y el dianostico de un paciente
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.DarAltaPaciente(System.Int32,System.DateTime,System.TimeSpan,System.String,System.String,System.Int32)">
+            <summary>
+            Metodo que se utiliza para dar el alta a un paciente
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarNotasEnfermeria(System.Int32,System.DateTime,System.TimeSpan,System.Decimal,System.Int32,System.Int32,System.Int32,System.Int32,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Metodo que se utiliza para registrar las notas de enfermeria de un pacinete
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarHojaPrescripcion(System.Int32,System.String,System.String,System.String,System.String,System.String,System.DateTime)">
+            <summary>
+            Metodo que se utiliza para registrar la hoja de prescripcion de un pacinete
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerHojasPrescripcionPorPaciente(System.Int32)">
+            <summary>
+            Metodo que se utiliza para obtener la lista de hojas de prescripcion de un pacinete
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarPatologia(System.Int32,System.DateTime,System.DateTime,System.String,System.String,System.String,System.String)">
+            <summary>
+            Metodo que se utiliza para registrar la patologia de un pacinete
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerPatologiasPorPaciente(System.Int32)">
+            <summary>
+            Metodo que se utiliza para obtener la lista de patologias de un pacinete
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerIngresosPorPaciente(System.Int32)">
+            <summary>
+            Metodo que se utiliza para obtener la lista de ingresos de un pacinete
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerAltasPorPaciente(System.Int32)">
+            <summary>
+            Metodo que se utiliza para obtener la lista de altas de un pacinete
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerNotasEnfermeriaPorPaciente(System.Int32)">
+            <summary>
+            Metodo que se utiliza para obtener la lista de notas de enfermeria ingresos de un pacinete
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerBalancesHidricosPorPaciente(System.Int32)">
+            <summary>
+            Metodo que se utiliza para obtener la lista de balances hidricos de un pacinete
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.EsAdministrador(System.String,System.String)">
+            <summary>
+            Metodo que se utiliza para comprobar si un usuario es administrador
+            </summary>
+        </member>
+        <member name="T:MambrinoVictoria.Programa.Acceso">
+            <summary>
+            Lógica de interacción para Acceso.xaml
+            </summary>
+            <summary>
+            Acceso
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.Acceso.#ctor(System.String,System.String)">
+            <summary>
+            Constructor que inicia la ventana de acceso
+            </summary>
+            <param name="usuario">Nombre de usuario</param>
+            <param name="clave">Contraseña de acceso</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.Acceso.aceptar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Maneja el evento de clic en el boton "aceptar"
+            </summary>
+            <param name="sender">Objeto que activa el evento</param>
+            <param name="e">Argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.Acceso.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MambrinoVictoria.Programa.AltaPaciente">
+            <summary>
+            Lógica de interacción para AltaPaciente.xaml
+            </summary>
+            <summary>
+            AltaPaciente
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.AltaPaciente.#ctor(System.String,System.Int32)">
+            <summary>
+            Constructor que inicializa la ventana de alta de paciente
+            </summary>
+            <param name="refCama">Referencia de la cama</param>
+            <param name="idCentro">Referencia del centro</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.AltaPaciente.aceptar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Maneja el evento de clic en el botón "aceptar"
+            </summary>
+            <param name="sender">Objeto que desencadenó el evento</param>
+            <param name="e">Argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.AltaPaciente.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MambrinoVictoria.Programa.AuxPacientes">
+            <summary>
+            Lógica de interacción para AuxPacientes.xaml
+            </summary>
+            <summary>
+            AuxPacientes
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.AuxPacientes.#ctor(System.Collections.Generic.List{System.String})">
+            <summary>
+            Constructor que inicializa la ventana auxiliar de pacientes
+            </summary>
+            <param name="listaPacientes">Lista de nombres de pacientes</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.AuxPacientes.seleccionar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Maneja el evento de clic en el boton de seleccion mostrando la informacion detallada del paciente seleccionado
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.AuxPacientes.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MambrinoVictoria.Programa.BusquedaPaciente">
+            <summary>
+            Lógica de interacción para BusquedaPaciente.xaml
+            </summary>
+            <summary>
+            BusquedaPaciente
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.BusquedaPaciente.#ctor">
+            <summary>
+            Constructor que inicializa la ventana de busqueda de pacientes
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.BusquedaPaciente.areaSalud_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Maneja el evento de cambio de seleccion de area de salud reiniciando los campos de NHC y NIF
+            y actualizando las opciones de zona basica segun el area de salud seleccionada
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.BusquedaPaciente.buscar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Maneja el evento de clic del boton buscar y mostran informacion detallada del paciente segun los campos proporcionados.
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.BusquedaPaciente.nif_TextChanged(System.Object,System.Windows.Controls.TextChangedEventArgs)">
+            <summary>
+            Maneja el cambio de texto en el campo NIF reiniciando el campo NHC
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.BusquedaPaciente.nhc_TextChanged(System.Object,System.Windows.Controls.TextChangedEventArgs)">
+            <summary>
+            Maneja el cambio de texto en el campo NHC reiniciando el campo NIF
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.BusquedaPaciente.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MambrinoVictoria.Programa.CrearPaciente">
+            <summary>
+            Lógica de interacción para CrearPaciente.xaml
+            </summary>
+            <summary>
+            CrearPaciente
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.CrearPaciente.#ctor">
+            <summary>
+            Constructor que inicializa la ventana de creacion de pacientes
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.CrearPaciente.Window_Loaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Maneja el evento de carga de la ventana
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.CrearPaciente.TextBox_TextChanged(System.Object,System.Windows.Controls.TextChangedEventArgs)">
+            <summary>
+            Maneja el evento de cambio de texto en los TextBox donde se usa
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.CrearPaciente.TextBox2_TextChanged(System.Object,System.Windows.Controls.TextChangedEventArgs)">
+            <summary>
+            Maneja el evento de cambio de texto en los TextBox donde se usa
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.CrearPaciente.titular_Checked(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Maneja el evento de check del checkBox titular
+            Si el titular esta marcado habilita el textBox esTitulaNombre
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.CrearPaciente.cAutonoma_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Maneja el evento de cambio del comboBox cAutonoma
+            Actualiza las opciones del coboBox provincia segun la comunidad autonoma seleccionada
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.CrearPaciente.cAutonomaNac_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Maneja el evento de cambio del comboBox cAutonomaNac
+            Actualiza las opciones del coboBox provincia de nacimiento segun la comunidad autonoma de nacimiento seleccionada
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.CrearPaciente.areaSalud_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Maneja el evento de cambio del comboBox areaSalud
+            Actualiza las opciones del coboBox xonaBasicaSalud segun el area de salud seleccionada
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.CrearPaciente.zonaBasicaSalud_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Maneja el evento de cambio del comboBox zonaBasicaSalud
+            Actualiza el texto del textBox cap segun la zona basica de salud seleccionada
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.CrearPaciente.nacionalNac_Checked(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Maneja el evento de check en el checBox nacionalNac
+            Habilita los comboBox y textBox cAutonomaNac, provinciaNac y PoblacionNac cuando nacionalNac esta marcado
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.CrearPaciente.extranjeroNac_Checked(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Maneja el evento de check en el checBox extranjeroNac
+            Deshabilita y establece el valor a null de los comboBox y textBox cAutonomaNac, provinciaNac y PoblacionNac cuando extranjeroNac esta marcado
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.CrearPaciente.aceptar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Maneja el evento de clic en el boton "Aceptar"
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.CrearPaciente.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MambrinoVictoria.Programa.EliminarUsuario">
+            <summary>
+            Lógica de interacción para EliminarUsuario.xaml
+            </summary>
+            <summary>
+            EliminarUsuario
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.EliminarUsuario.#ctor">
+            <summary>
+            Constructor que inicializa la ventana de eliminacion de usuario
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.EliminarUsuario.perfil_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Maneja el evento de cambio de seleccion del comboBox perfil
+            Carga los nombres de usuarios asociados al perfil seleccionado en el comboBox de usuario
+            </summary>
+            <param name="sender">El objeto que desencadenó el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.EliminarUsuario.eliminar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Maneja el evento de clic en el boton eliminar
+            Elimina el usuario seleccionado y muestra un mensaje de confirmacion
+            </summary>
+            <param name="sender">El objeto que desencadenó el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.EliminarUsuario.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MambrinoVictoria.Programa.GestionAlertas">
+            <summary>
+            Lógica de interacción para GestionAlertas.xaml
+            </summary>
+            <summary>
+            GestionAlertas
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.GestionAlertas.#ctor(System.Int32)">
+            <summary>
+            Constructor que inicializa la ventana de gestion de alertas
+            </summary>
+            <param name="nhc">Identificador de la cama asociada a la alerta</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.GestionAlertas.aceptar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Maneja el evento de clic en el botón "Aceptar"
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.GestionAlertas.modificar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Maneja el evento de clic en el boton "Modificar"
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.GestionAlertas.CargarInformacionAlerta">
+            <summary>
+            Metodo que carga la informacion de la alerta en los campos correspondientes
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.GestionAlertas.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MambrinoVictoria.Programa.HojaPrescripcion">
+            <summary>
+            Lógica de interacción para HojaPrescripcion.xaml
+            </summary>
+            <summary>
+            HojaPrescripcion
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.HojaPrescripcion.#ctor(System.Int32)">
+            <summary>
+            Constructor que inicializa la ventana de prescripcion medica
+            </summary>
+            <param name="nhcPaSel">Numero de historia clinica del paciente seleccionado</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.HojaPrescripcion.aceptar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Manejador del evento Click del boton "Aceptar"
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.HojaPrescripcion.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MambrinoVictoria.Programa.Hospitalizacion">
+            <summary>
+            Lógica de interaccion para Hospitalizacion.xaml
+            </summary>
+            <summary>
+            Hospitalizacion
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.Hospitalizacion.#ctor(System.String,System.Int32)">
+            <summary>
+            Constructor que inicializa la ventana de hospitalizacion
+            </summary>
+            <param name="refCama">Referencia de la cama asociada a la hospitalizacion</param>
+            <param name="idCentro">Referencia del centro asociado a la hospitalizacion</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.Hospitalizacion.aceptar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Maneja el evento de clic en el boton "Aceptar" para realizar la hospitalizacion
+            </summary>
+            <param name="sender">El objeto que desencaden el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.Hospitalizacion.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MambrinoVictoria.Programa.Informe">
+            <summary>
+            Lógica de interacción para Informe.xaml
+            </summary>
+            <summary>
+            Informe
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.Informe.#ctor(System.Int32)">
+            <summary>
+            Constructor que inicializa la ventana de Informe, a la base de datos, establece la posicion inicial de la venta y  rellena los listBox
+            </summary>
+            <param name="nhcPaSel">Numero de historia clinica del paciente seleccionado</param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:MambrinoVictoria.Programa.Informe.aceptar_Click(System.Object,System.Windows.RoutedEventArgs)" -->
+        <member name="M:MambrinoVictoria.Programa.Informe.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MambrinoVictoria.Programa.ModificarAdmin">
+            <summary>
+            Lógica de interacción para ModificarAdmin.xaml
+            </summary>
+            <summary>
+            ModificarAdmin
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.ModificarAdmin.#ctor">
+            <summary>
+            Constructor que inicializa la ventana de Modificar Admin
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.ModificarAdmin.aceptar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Manejador del evento Click del boton "Aceptar"
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.ModificarAdmin.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MambrinoVictoria.Programa.NotasEnfermeria">
+            <summary>
+            Lógica de interacción para NotasEnfermeria.xaml
+            </summary>
+            <summary>
+            NotasEnfermeria
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.NotasEnfermeria.#ctor(System.Int32)">
+            <summary>
+            Constructor que inicializa la ventana de notas de enfermeria
+            </summary>
+            <param name="nhcPaSel">Numero de historia clinica del paciente seleccionado</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.NotasEnfermeria.aceptar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Manejador del evento Click del boton "Aceptar"
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.NotasEnfermeria.ConvertToInt(System.String)">
+            <summary>
+            Metodo utilizado para establecer los campos de los textBox como int
+            </summary>
+            <param name="campo">Campo al que se aplica la transformacion</param>
+            <returns></returns>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.NotasEnfermeria.CalcularIMC(System.Decimal,System.Decimal)">
+            <summary>
+            Metodo utilizado para calcular el IMC
+            </summary>
+            <param name="peso">Peso introducido del paciente</param>
+            <param name="altura">Altura introducida del paciente</param>
+            <returns></returns>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.NotasEnfermeria.CalcularTotalBalanceHidrico(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Metodo que calcula el total del balance hidrico
+            </summary>
+            <param name="entradaAlimentos"></param>
+            <param name="entradaLiquidos"></param>
+            <param name="entradaFluidoterapia"></param>
+            <param name="entradaHemoderivados"></param>
+            <param name="entradaOtros"></param>
+            <param name="salidaDiuresis"></param>
+            <param name="salidaVomitos"></param>
+            <param name="salidaHeces"></param>
+            <param name="salidaSonda"></param>
+            <param name="salidaDrenajes"></param>
+            <param name="salidaOtrasPerdidas"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.NotasEnfermeria.ActualizarIMC(System.Object,System.Windows.Controls.TextChangedEventArgs)">
+            <summary>
+            Metodo que actuliza el IMC
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.NotasEnfermeria.ActualizarBalHid(System.Object,System.Windows.Controls.TextChangedEventArgs)">
+            <summary>
+            Metodo que actuliza el total del balance hidrico
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.NotasEnfermeria.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MambrinoVictoria.Programa.Patologia">
+            <summary>
+            Lógica de interacción para Patologia.xaml
+            </summary>
+            <summary>
+            Patologia
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.Patologia.#ctor(System.Int32)">
+            <summary>
+            Constructor que inicializa la ventana de patologia, establece la posicion de la veata, inicializa la base de datos, establece la fecha y rellena los comboBox
+            </summary>
+            <param name="nhcPaSel">Numero de historia clinica del paciente seleccionado</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.Patologia.aceptar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Maneja el clic en el boton "Aceptar"
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.Patologia.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MambrinoVictoria.Programa.Principal">
+            <summary>
+            Lógica de interaccion para Principal.xaml
+            </summary>
+            <summary>
+            Principal
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.Principal.#ctor(System.String,System.String)">
+            <summary>
+            Constructor que inicializa la ventana principal
+            </summary>
+            <param name="u">Nombre de usuario</param>
+            <param name="c">Clave de acceso</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.Principal.Window_Loaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Maneja el evento de carga de la ventana
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.Principal.inicio_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Maneja el clic en el boton "Inicio"
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.Principal.restablecer_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Maneja el clic en el boton "Restablecer Base de Datos"
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.Principal.modificar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Maneja el clic en el boton "Modificar Administrador"
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.Principal.buscar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Maneja el clic en el boton "Buscar"
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.Principal.pacienteNuevo_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Maneja el clic en el boton "Paciente Nuevo"
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.Principal.asignarCama_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Maneja el clic en el boton "Asignar Cama"
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.Principal.candadoRojo_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Maneja el clic en el boton "Candado Rojo"
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.Principal.candadoVerde_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Maneja el clic en el boton "Candado Verde"
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.Principal.alertas_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Maneja el clic en el boton "Alertas"
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.Principal.informes_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Maneja el clic en el boton "Informes"
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.Principal.alta_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Maneja el clic en el boton "Alta"
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.Principal.consultar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Maneja el clic en el boton "Consultar"
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="F:MambrinoVictoria.Programa.Principal.botonSeleccionado">
+            <summary>
+            Boton seleccionado
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.Principal.planta_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Maneja el cambio de seleccion en el combo box de plantas
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.Principal.hospital_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Maneja el cambio de seleccion en el combo box de hospitales
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.Principal.Button_Checked(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Controla el evento Checked de los botones
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.Principal.Button_Unchecked(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Controla el evento Unchecked de los botones
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.Principal.ResetearInterfaz">
+            <summary>
+            Metodo para restablecer la interfaz
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.Principal.CambiarImagenBoton(System.Windows.Controls.Primitives.ToggleButton,System.String)">
+            <summary>
+            Cambia la imagen de la cama en el boton segun su estado
+            </summary>
+            <param name="button">El boton a modificar</param>
+            <param name="rutaImagen">La ruta de la imagen a asignar</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.Principal.eliminar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Maneja el clic en el boton "Eliminar"
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.Principal.ActualizarBoton(System.Int32,System.Int32)">
+            <summary>
+            Metodo utilizado para actualizar los bonotes tras los cambios
+            </summary>
+            <param name="idCama">Identificador de la cama</param>
+            <param name="nhcPaSel">Numero de historia del paciente seleccionado</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.Principal.procesos_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Maneja el clic en el boton "Procesos"
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.Principal.notas_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Maneja el clic en el boton "Notas"
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.Principal.prescripcion_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Maneja el clic en el boton "Prescripcion"
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.Principal.patologia_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Maneja el clic en el boton "Patologias"
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.Principal.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MambrinoVictoria.Programa.RegistroUs">
+            <summary>
+            Lógica de interacción para RegistroUs.xaml
+            </summary>
+            <summary>
+            RegistroUs
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.RegistroUs.#ctor">
+            <summary>
+            Constructor que inicializa la ventana de registro de usuario, establece la posicion de la veata, inicializa la base de datos y obtiene los roles
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.RegistroUs.aceptar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Manejador del evento Click del boton "Aceptar"
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.RegistroUs.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MambrinoVictoria.Programa.VerPaciente">
+            <summary>
+            Lógica de interacción para VerPaciente.xaml
+            </summary>
+            <summary>
+            VerPaciente
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.VerPaciente.#ctor(System.Collections.Generic.List{System.String})">
+            <summary>
+            Constructor de la clase que inicializa la ventana para ver la informacion del paciente
+            </summary>
+            <param name="paciente">Lista con la informacion del paciente</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.VerPaciente.CargarDatosPaciente(System.Collections.Generic.List{System.String})">
+            <summary>
+            Metodo para cargar los datos del paciente en los campos de la ventana
+            </summary>
+            <param name="paciente">Lista con la informacion del paciente</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.VerPaciente.aceptar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Manejador del evento Click del boton "Aceptar"
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.VerPaciente.modificar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Manejador del evento Click del boton "Modificar"
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.VerPaciente.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MambrinoVictoria.UserCon.UserControl1">
+            <summary>
+            Lógica de interacción para UserControl1.xaml
+            </summary>
+            <summary>
+            UserControl1
+            </summary>
+        </member>
+        <member name="T:MambrinoVictoria.UserCon.UserControl1.Action">
+            <summary>
+            Delegado que representa una accion con un parametro de tipo Type
+            </summary>
+            <param name="tipo">El tipo de dato utilizado como parametro</param>
+        </member>
+        <member name="E:MambrinoVictoria.UserCon.UserControl1.Clic">
+            <summary>
+            Evento que se dispara cuando se realiza un clic.
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.UserCon.UserControl1.#ctor">
+            <summary>
+            Constructor de la clase UserControl1
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.UserCon.UserControl1.aceptar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Manejador del evento Click del boton "Aceptar"
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.UserCon.UserControl1.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MambrinoVictoria.UserCon.UserControl2">
+            <summary>
+            Lógica de interacción para UserControl2.xaml
+            </summary>
+            <summary>
+            UserControl2
+            </summary>
+        </member>
+        <member name="T:MambrinoVictoria.UserCon.UserControl2.ActionType">
+            <summary>
+            Delegado que representa una accion con un parametro de tipo Type
+            </summary>
+            <param name="tipo">El tipo de dato utilizado como parametro</param>
+        </member>
+        <member name="E:MambrinoVictoria.UserCon.UserControl2.AñadirClick">
+            <summary>
+            Evento que se dispara cuando se realiza un clic en el boton Añadir
+            </summary>
+        </member>
+        <member name="E:MambrinoVictoria.UserCon.UserControl2.CancelarClick">
+            <summary>
+            Evento que se dispara cuando se realiza un clic en el boton Cancelar
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.UserCon.UserControl2.#ctor">
+            <summary>
+            Constructor de la clase UserControl2
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.UserCon.UserControl2.SetListBoxItems(System.Collections.Generic.List{System.Collections.Generic.List{System.String}})">
+            <summary>
+            Establece los elementos del ListBox con la lista de listas proporcionad
+            </summary>
+            <param name="items">Lista de listas para agregar al ListBox</param>
+        </member>
+        <member name="M:MambrinoVictoria.UserCon.UserControl2.añadir_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Manejador del evento Click del boton "Añadir"
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.UserCon.UserControl2.cancelar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Manejador del evento Click del boton "Cancelar"
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.UserCon.UserControl2.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MambrinoVictoria.UserCon.UserControl3">
+            <summary>
+            Lógica de interacción para UserControl3.xaml
+            </summary>
+            <summary>
+            UserControl3
+            </summary>
+        </member>
+        <member name="T:MambrinoVictoria.UserCon.UserControl3.ActionType">
+            <summary>
+            Delegado que representa una accion con un parametro de tipo Type
+            </summary>
+            <param name="tipo">El tipo de dato utilizado como parametro</param>
+        </member>
+        <member name="E:MambrinoVictoria.UserCon.UserControl3.AñadirClick">
+            <summary>
+            Evento que se dispara cuando se realiza un clic en el boton Añadir
+            </summary>
+        </member>
+        <member name="E:MambrinoVictoria.UserCon.UserControl3.CancelarClick">
+            <summary>
+            Evento que se dispara cuando se realiza un clic en el boton Cancelar
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.UserCon.UserControl3.#ctor">
+            <summary>
+            Constructor de la clase UserControl3
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.UserCon.UserControl3.SetListBoxItems(System.Collections.Generic.List{System.Collections.Generic.List{System.String}})">
+            <summary>
+            Establece los elementos del ListBox con la lista de listas proporcionad
+            </summary>
+            <param name="items">Lista de listas para agregar al ListBox</param>
+        </member>
+        <member name="M:MambrinoVictoria.UserCon.UserControl3.añadir_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Manejador del evento Click del boton "Añadir"
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.UserCon.UserControl3.cancelar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Manejador del evento Click del boton "Cancelar"
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.UserCon.UserControl3.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MambrinoVictoria.App">
+            <summary>
+            Lógica de interacción para App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:MambrinoVictoria.MainWindow">
+            <summary>
+            Lógica de interacción para MainWindow.xaml
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.MainWindow.#ctor">
+            <summary>
+            Constructor de la clase MainWindow
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.MainWindow.Window_Loaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Maneja el evento de carga de la ventana
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.MainWindow.Conectar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Manejador del evento Click del boton "Conectar"
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MambrinoVictoria.Paginas.Inicio">
+            <summary>
+            Lógica de interacción para Inicio.xaml
+            </summary>
+            <summary>
+            Inicio
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.Paginas.Inicio.#ctor">
+            <summary>
+            Constructor que inicializa la ventana de inicio
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.Paginas.Inicio.Window_Loaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Maneja el evento de carga de la ventana
+            Maximiza la ventana actual al cargarla
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Paginas.Inicio.uc1_Acceso(System.Type)">
+            <summary>
+            Manejador del evento Clic del boton "Aceptar" del "UserControl1"
+            </summary>
+            <param name="tipoPagina">Tipo de la pagina que se debe mostrar</param>
+        </member>
+        <member name="M:MambrinoVictoria.Paginas.Inicio.ayuda_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Manejador del evento Click del boton "Ayuda"
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Paginas.Inicio.registro_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Manejador del evento Click del boton "Registro"
+            </summary>
+            <param name="sender">El objeto que desencadeno el evento</param>
+            <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Paginas.Inicio.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MambrinoVictoria.Properties.Resources">
+            <summary>
+              Clase de recurso fuertemente tipado para buscar cadenas traducidas, etc.
+            </summary>
+        </member>
+        <member name="P:MambrinoVictoria.Properties.Resources.ResourceManager">
+            <summary>
+              Devuelve la instancia ResourceManager almacenada en caché utilizada por esta clase.
+            </summary>
+        </member>
+        <member name="P:MambrinoVictoria.Properties.Resources.Culture">
+            <summary>
+              Invalida la propiedad CurrentUICulture del subproceso actual para todas las
+              búsquedas de recursos usando esta clase de recursos fuertemente tipados.
+            </summary>
+        </member>
+    </members>
+</doc>

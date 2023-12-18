@@ -1,0 +1,221 @@
+﻿<Window x:Class="MambrinoVictoria.Programa.NotasEnfermeria"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MambrinoVictoria.Programa"
+        mc:Ignorable="d"
+    Height="850" Width="1600">
+
+    <Window.Resources>
+        <ResourceDictionary Source="/HojaEstilos/Estilos.xaml"/>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="60*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="12*"/>
+            <ColumnDefinition Width="260*"/>
+            <ColumnDefinition Width="250*"/>
+            <ColumnDefinition Width="200*"/>
+            <ColumnDefinition Width="75*"/>
+            <ColumnDefinition Width="120*"/>
+            <ColumnDefinition Width="220*"/>
+            <ColumnDefinition Width="210*"/>
+            <ColumnDefinition Width="70*"/>
+            <ColumnDefinition Width="12*"/>
+        </Grid.ColumnDefinitions>
+
+        <Rectangle Grid.Row="0" Grid.Column="1" Fill="#FF051B5C" Grid.ColumnSpan="8" Grid.RowSpan="2"/>
+        <Rectangle Grid.Row="1" Grid.Column="1" Fill="#FFCADBF3" Grid.ColumnSpan="7" Grid.RowSpan="2"/>
+        <Rectangle Grid.Row="3" Grid.Column="1" Fill="#FF68B6E9"/>
+        <Rectangle Grid.Row="3" Grid.Column="3" Fill="#FF68B6E9" Grid.ColumnSpan="2" Margin="100,0,0,0"/>
+        <Rectangle Grid.Row="4" Grid.Column="1" Fill="#FFCADBF3" Grid.ColumnSpan="5" Grid.RowSpan="14"/>
+        <Rectangle Grid.Row="4" Grid.Column="5" Fill="#FFCADBF3" Grid.RowSpan="7" Grid.ColumnSpan="2"/>
+        <Rectangle Grid.Row="10" Grid.Column="5" Fill="#FFCADBF3" Grid.RowSpan="8" Grid.ColumnSpan="2"/>
+        <Rectangle Grid.Row="3" Grid.Column="7" Fill="#FFCADBF3" Grid.RowSpan="15"/>
+        <Rectangle Grid.Row="1" Grid.Column="8" Fill="#FFCADBF3" Grid.RowSpan="17"/>
+
+        <Rectangle Grid.Row="4" Grid.Column="5" Fill="White" Grid.ColumnSpan="2"/>
+        <Rectangle Grid.Row="10" Grid.Column="5" Fill="White" Grid.ColumnSpan="2"/>
+
+
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="8"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="8"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="1" Grid.Row="3" Grid.ColumnSpan="8"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="1" Grid.Row="4" Grid.ColumnSpan="8"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="1" Grid.Row="5" Grid.ColumnSpan="8"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="1" Grid.Row="6" Grid.ColumnSpan="8"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="1" Grid.Row="7" Grid.ColumnSpan="8"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="1" Grid.Row="8" Grid.ColumnSpan="8"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="1" Grid.Row="9" Grid.ColumnSpan="8"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="1" Grid.Row="10" Grid.ColumnSpan="8"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="1" Grid.Row="11" Grid.ColumnSpan="8"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="1" Grid.Row="12" Grid.ColumnSpan="8"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="1" Grid.Row="13" Grid.ColumnSpan="8"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="1" Grid.Row="14" Grid.ColumnSpan="8"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="1" Grid.Row="15" Grid.ColumnSpan="8"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="1" Grid.Row="16" Grid.ColumnSpan="8"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="1" Grid.Row="17" Grid.ColumnSpan="8"/>
+
+        <Border BorderBrush="White" BorderThickness="2" Grid.Row="1" Grid.Column="2"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Row="2" Grid.Column="2"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Row="1" Grid.Column="3"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Row="2" Grid.Column="3"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Row="1" Grid.Column="4" Grid.ColumnSpan="2"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Row="2" Grid.Column="4" Grid.ColumnSpan="2"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Row="1" Grid.Column="6"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Row="2" Grid.Column="6"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Row="1" Grid.Column="7"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Row="2" Grid.Column="7"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Row="1" Grid.Column="8"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Row="2" Grid.Column="8"/>
+
+        <Border BorderBrush="White" BorderThickness="2" Grid.Row="1" Grid.Column="1" Grid.RowSpan="17"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Row="1" Grid.Column="2" Grid.RowSpan="4" Grid.ColumnSpan="5"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Row="4" Grid.Column="2" Grid.RowSpan="14"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Row="4" Grid.Column="3" Grid.RowSpan="14"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Row="4" Grid.Column="4" Grid.RowSpan="14"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Row="5" Grid.Column="5" Grid.RowSpan="12"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Row="5" Grid.Column="6" Grid.RowSpan="12"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Row="3" Grid.Column="7" Grid.RowSpan="14"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Row="1" Grid.Column="7" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Row="17" Grid.Column="5" Grid.RowSpan="2" Grid.ColumnSpan="3"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Row="3" Grid.Column="8" Grid.RowSpan="17"/>
+
+        <Label Content="Notas de Enfermería" FontSize="36" Foreground="White" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="3" FontWeight="Bold" Margin="0,0,223,6"/>
+
+        <Label Style="{DynamicResource TextoAzul}" Content="Valoración al Ingreso" Grid.Row="1" Grid.Column="1"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="Seguimiento UPP" Grid.Row="2" Grid.Column="1"/>
+        
+        <Label Style="{DynamicResource TextoAzul}" Content="Escala de Glasgow" Grid.Row="1" Grid.Column="3"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="Escala de Norton" Grid.Row="2" Grid.Column="3"/>
+
+        <Label Style="{DynamicResource TextoAzul}" Content="Fecha Toma: " Grid.Row="1" Grid.Column="6"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="Hora Toma: " Grid.Row="2" Grid.Column="6"/>
+
+        <Label Style="{DynamicResource TextoAzul}" Content="Toma de constantes vitales: " Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2"/>
+
+        <Label Style="{DynamicResource TextoAzul}" Content="Temperatura" Grid.Row="4" Grid.Column="2"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="Tensión arterial sistólica" Grid.Row="5" Grid.Column="2"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="Tensión arterial diastólica " Grid.Row="6" Grid.Column="2"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="Frecuencia cardíaca " Grid.Row="7" Grid.Column="2"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="Frecuencia resoiratoria " Grid.Row="8" Grid.Column="2"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="Peso" Grid.Row="9" Grid.Column="2"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="Talla" Grid.Row="10" Grid.Column="2"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="Índice masa corporal" Grid.Row="11" Grid.Column="2"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="Glucemia capilar" Grid.Row="12" Grid.Column="2"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="Ingesta de alimentos" Grid.Row="13" Grid.Column="2"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="Tipo deposición" Grid.Row="14" Grid.Column="2"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="Náuseas" Grid.Row="15" Grid.Column="2"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="Prurito" Grid.Row="16" Grid.Column="2"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="Observaciones" Grid.Row="17" Grid.Column="2"/>
+
+        <Label Style="{DynamicResource TextoAzul}" Content="Balance hídrico: " Grid.Row="3" Grid.Column="3" Grid.ColumnSpan="2" Margin="120,3,5,3"/>
+
+        <Label Style="{DynamicResource TextoAzul}" Content="Entrada: " Grid.Row="4" Grid.Column="5"/>
+
+        <Label Style="{DynamicResource TextoAzul}" Content="Ingesta de alimentos" Grid.Row="5" Grid.Column="6" Grid.ColumnSpan="2"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="Ingesta de líquidos " Grid.Row="6" Grid.Column="6"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="Fluidoterapia" Grid.Row="7" Grid.Column="6"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="Hemoderivados" Grid.Row="8" Grid.Column="6"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="Otros" Grid.Row="9" Grid.Column="6"/>
+
+        <Label Style="{DynamicResource TextoAzul}" Content="Salida:" Grid.Row="10" Grid.Column="5"/>
+
+        <Label Style="{DynamicResource TextoAzul}" Content="Diuresis" Grid.Row="11" Grid.Column="6" Grid.ColumnSpan="2"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="Vómitos" Grid.Row="12" Grid.Column="6"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="Heces" Grid.Row="13" Grid.Column="6"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="Sonda nasogástrica" Grid.Row="14" Grid.Column="6"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="Drenajes" Grid.Row="15" Grid.Column="6"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="Otras pérdidas " Grid.Row="16" Grid.Column="6"/>
+
+        <Label Style="{DynamicResource TextoAzul}" Content="Total Balance Hídrico: " Grid.Row="17" Grid.Column="5" Grid.ColumnSpan="2"/>
+
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="fecha" Grid.Column="7" Grid.Row="1" Margin="5,3,100,3" IsEnabled="False"/>
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="hora" Grid.Column="7" Grid.Row="2" Margin="5,3,100,3" IsEnabled="False"/>
+
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="temperatura" Grid.Column="3" Grid.Row="4" Text="00.0"/>
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="sistolica" Grid.Column="3" Grid.Row="5"/>
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="diastolica" Grid.Column="3" Grid.Row="6"/>
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="frecuenciaCard" Grid.Column="3" Grid.Row="7"/>
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="frecuenciaResp" Grid.Column="3" Grid.Row="8"/>
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="peso" Grid.Column="3" Grid.Row="9" Text="00.0"/>
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="talla" Grid.Column="3" Grid.Row="10" Text="000.0"/>
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="imc" Grid.Column="3" Grid.Row="11" IsEnabled="False"/>
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="glucemia" Grid.Column="3" Grid.Row="12" Text="00.0"/>
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="ingestaAl" Grid.Column="3" Grid.Row="13"/>
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="deposicion" Grid.Column="3" Grid.Row="14"/>
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="nauseas" Grid.Column="3" Grid.Row="15"/>
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="prurito" Grid.Column="3" Grid.Row="16"/>
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="observaciones" Grid.Column="3" Grid.Row="17"/>
+
+        <Label Style="{DynamicResource TextoAzul}" Content="Cº" Grid.Row="4" Grid.Column="4" Margin="5,3,5,3"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="mmHg" Grid.Row="5" Grid.Column="4" Margin="5,3,5,3"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="mmHg" Grid.Row="6" Grid.Column="4" Margin="5,3,5,3"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="l.p.m." Grid.Row="7" Grid.Column="4" Margin="5,3,5,3"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="r.p.m." Grid.Row="8" Grid.Column="4" Margin="5,3,5,3"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="kg" Grid.Row="9" Grid.Column="4" Margin="5,3,5,3"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="metro" Grid.Row="10" Grid.Column="4" Margin="5,3,5,3"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="mg / dl" Grid.Row="12" Grid.Column="4" Margin="5,3,5,3"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="Si / No" Grid.Row="15" Grid.Column="4" Margin="5,3,5,3"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="Si / No"  Grid.Row="16" Grid.Column="4" Margin="5,3,5,3"/>
+        
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="balAlimentos" Grid.Column="7" Grid.Row="5"/>
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="balLiquidos" Grid.Column="7" Grid.Row="6"/>
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="balFluidoterapia" Grid.Column="7" Grid.Row="7"/>
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="balHemoderivados" Grid.Column="7" Grid.Row="8"/>
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="balOtros" Grid.Column="7" Grid.Row="9"/>
+
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="balDiuresis" Grid.Column="7" Grid.Row="11"/>
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="balVomitos" Grid.Column="7" Grid.Row="12"/>
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="balHeces" Grid.Column="7" Grid.Row="13"/>
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="balSonda" Grid.Column="7" Grid.Row="14"/>
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="balDrenajes" Grid.Column="7" Grid.Row="15"/>
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="balOtrasPedidas" Grid.Column="7" Grid.Row="16"/>
+
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="totBalHid" Grid.Column="6" Grid.Row="17" Grid.ColumnSpan="2" Margin="110,3,5,3" IsEnabled="False"/>
+
+        <Label Style="{DynamicResource TextoAzul}" Content="ml" Grid.Row="5" Grid.Column="8" Margin="5,3,5,3"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="ml" Grid.Row="6" Grid.Column="8" Margin="5,3,5,3"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="ml" Grid.Row="7" Grid.Column="8" Margin="5,3,5,3"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="ml" Grid.Row="8" Grid.Column="8" Margin="5,3,5,3"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="ml" Grid.Row="9" Grid.Column="8" Margin="5,3,5,3"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="ml" Grid.Row="11" Grid.Column="8" Margin="5,3,5,3"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="ml" Grid.Row="12" Grid.Column="8" Margin="5,3,5,3"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="ml" Grid.Row="13" Grid.Column="8" Margin="5,3,5,3"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="ml" Grid.Row="14" Grid.Column="8" Margin="5,3,5,3"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="ml"  Grid.Row="15" Grid.Column="8" Margin="5,3,5,3"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="ml"  Grid.Row="16" Grid.Column="8" Margin="5,3,5,3"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="ml"  Grid.Row="17" Grid.Column="8" Margin="5,3,5,3"/>
+
+        <Button x:Name="b1" Content="No Disponible" HorizontalAlignment="Left" VerticalAlignment="Center" Height="27" Grid.Column="2" Grid.Row="1" Width="137" Margin="5,3,5,3" Foreground="White" Background="#FF0F2F90" FontWeight="Bold" FontFamily="Arial" FontSize="16"/>
+        <Button x:Name="b2" Content="No Disponible" HorizontalAlignment="Left" VerticalAlignment="Center" Height="27" Grid.Column="2" Grid.Row="2" Width="137" Margin="5,3,5,3" Foreground="White" Background="#FF0F2F90" FontWeight="Bold" FontFamily="Arial" FontSize="16"/>
+        <Button x:Name="b3" Content="No Disponible" HorizontalAlignment="Left" VerticalAlignment="Center" Height="27" Grid.Column="4" Grid.Row="1" Width="137" Margin="5,3,5,3" Foreground="White" Background="#FF0F2F90" FontWeight="Bold" FontFamily="Arial" FontSize="16" Grid.ColumnSpan="2"/>
+        <Button x:Name="b4" Content="No Disponible" HorizontalAlignment="Left" VerticalAlignment="Center" Height="27" Grid.Column="4" Grid.Row="2" Width="137" Margin="5,3,5,3" Foreground="White" Background="#FF0F2F90" FontWeight="Bold" FontFamily="Arial" FontSize="16" Grid.ColumnSpan="2"/>
+
+        <Button x:Name="aceptar" Content="Aceptar" HorizontalAlignment="Right" VerticalAlignment="Center" Height="35" Grid.Column="7" Grid.Row="18" Width="120" Margin="5,3,5,3" Foreground="White" Background="#FF0F2F90" FontWeight="Bold" FontFamily="Arial" FontSize="20" Click="aceptar_Click"/>
+
+    </Grid>
+</Window>

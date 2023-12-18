@@ -1,0 +1,41 @@
+﻿<Window x:Class="MambrinoVictoria.Programa.AuxPacientes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MambrinoVictoria.Programa"
+        mc:Ignorable="d"
+        Height="190" Width="450">
+
+    <Window.Resources>
+        <ResourceDictionary Source="/HojaEstilos/Estilos.xaml"/>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="120"/>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="5*"/>
+        </Grid.ColumnDefinitions>
+
+        <Rectangle Grid.Row="0" Grid.Column="1" Fill="#FF051B5C" Grid.ColumnSpan="3"/>
+        <Rectangle Grid.Row="1" Grid.Column="1" Fill="#FFCADBF3" Grid.ColumnSpan="3"/>
+
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="3"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="3"/>
+
+        <Label Content="Seleccionar Paciente" FontSize="30" Foreground="White" Grid.Column="1" Grid.Row="0" FontWeight="Bold" Grid.ColumnSpan="2" Margin="0,0,0,44" Grid.RowSpan="2"/>
+
+        <ComboBox Style="{DynamicResource ComboBoxStyle1}" x:Name="pacientes" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="3" SelectedIndex="0"/>
+
+        <Button x:Name="seleccionar" Style="{DynamicResource BotonSimple}" Grid.Column="3" Grid.Row="2" Content="Seleccionar" Height="30" Width="95" Click="seleccionar_Click"/>
+
+    </Grid>
+</Window>

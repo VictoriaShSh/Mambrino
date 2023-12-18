@@ -1,0 +1,10 @@
+17/12/2023 12:56:43: CONEXION - Conexion establecida
+17/12/2023 12:56:48: INICIO SESION  - El usuario: admin ha iniciado sesion
+17/12/2023 14:45:25: CONEXION - Conexion establecida
+17/12/2023 14:47:02: INICIO SESION  - El usuario: admin ha iniciado sesion
+17/12/2023 14:51:32: CONEXION - Conexion establecida
+17/12/2023 14:54:49: CONEXION - Conexion establecida
+17/12/2023 14:54:54: INICIO SESION  - El usuario: admin ha iniciado sesion
+17/12/2023 15:00:12: INICIO SESION  - El usuario: nuevoUsuario ha iniciado sesion
+17/12/2023 15:01:29: INICIO SESION  - El usuario: admin ha iniciado sesion
+17/12/2023 15:02:17: INICIO SESION  - El usuario: admin ha iniciado sesion

@@ -1,0 +1,66 @@
+﻿<Window x:Class="MambrinoVictoria.Programa.Patologia"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MambrinoVictoria.Programa"
+        mc:Ignorable="d"
+        d:Height="300" d:Width="710" MaxWidth="710" MaxHeight="300">
+
+    <Control.Resources>
+        <ResourceDictionary Source="../HojaEstilos/Estilos.xaml"/>
+    </Control.Resources>
+
+    <Grid Background="#FFCCECF1">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition Width="170"/>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition Width="10"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+
+        <Rectangle Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3" Fill="#FF003DF9"/>
+        <Rectangle Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="3" Fill="#FF003DF9"/>
+        <Rectangle Grid.Row="0" Grid.Column="1" Fill="#FF003DF9" Grid.ColumnSpan="3"/>
+        <Rectangle Grid.Row="3" Grid.Column="1" Fill="#FF003DF9" Grid.ColumnSpan="3"/>
+
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="1" Grid.Row="0"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="2" Grid.Row="0"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="3" Grid.Row="0"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="1" Grid.Row="1"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="2" Grid.Row="1"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="3" Grid.Row="1"/>
+
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="1" Grid.Row="3"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="2" Grid.Row="3"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="3" Grid.Row="3"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="1" Grid.Row="4"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="2" Grid.Row="4"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="3" Grid.Row="4"/>
+
+        <Label Style="{DynamicResource TextoBlanco1}" Grid.Column="1" Grid.Row="0" Content="Fecha Inicio Sintomas"/>
+        <Label Style="{DynamicResource TextoBlanco1}" Grid.Column="2" Grid.Row="0" Content="Fecha Diagnostico"/>
+        <Label Style="{DynamicResource TextoBlanco1}" Grid.Column="3" Grid.Row="0" Content="Sintomas"/>
+        <Label Style="{DynamicResource TextoBlanco1}" Grid.Column="1" Grid.Row="3" Content="Diagnostico"/>
+        <Label Style="{DynamicResource TextoBlanco1}" Grid.Column="2" Grid.Row="3" Content="Especialidad"/>
+        <Label Style="{DynamicResource TextoBlanco1}" Grid.Column="3" Grid.Row="3" Content="Codificacion"/>
+
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="fechaSintomas" Grid.Column="1" Grid.Row="1" Margin="7,7,7,7"/>
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="fechaDiagnostico" Grid.Column="2" Grid.Row="1" Margin="7,7,7,7" IsEnabled="False"/>
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="sintomas" Grid.Column="3" Grid.Row="1" Margin="7,7,7,7"/>
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="diagnostico" Grid.Column="1" Grid.Row="4" Margin="7,7,7,7"/>
+        <ComboBox Style="{DynamicResource ComboBoxStyle1}" x:Name="especialidad" Grid.Column="2" Grid.Row="4" SelectedIndex="0" Margin="7,7,7,7"/>
+        <ComboBox Style="{DynamicResource ComboBoxStyle1}" x:Name="codificacion" Grid.Column="3" Grid.Row="4" SelectedIndex="0" Margin="7,7,7,7"/>
+
+        <Button Style="{DynamicResource BotonSimple}" x:Name="aceptar" Content="Aceptar" Grid.Column="3" Grid.Row="5" HorizontalAlignment="Right" Margin="0,0,20,0" Click="aceptar_Click"/>
+    </Grid>
+</Window>

@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<reflection>
+  <assemblies>
+    <assembly name="PresentationCore">
+      <assemblydata version="4.0.0.0" culture="" key="0024000004800000940000000602000000240000525341310004000001000100B5FC90E7027F67871E773A8FDE8938C81DD402BA65B9201D60593E96C492651E889CC13F1415EBB53FAC1131AE0BD333C5EE6021672D9718EA31A8AEBD0DA0072F25D87DBA6FC90FFD598ED4DA35E44C398C454307E8E33B8426143DAEC9F596836F97C8F74750E5975C64E2189F45DEF46B2A2B1247ADC3652BF5C308055DA9" hash="SHA1" />
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.CompilerServices.ExtensionAttribute" ref="true" />
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyKeyFileAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>f:\dd\wpf\src\windows.snk</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDelaySignAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Resources.NeutralResourcesLanguageAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>en-US</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Resources.SatelliteContractVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.0.0.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyInformationalVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.0.30319.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyFileVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.8.3761.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyCopyrightAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>© Microsoft Corporation.  All rights reserved.</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyProductAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>Microsoft® .NET Framework</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDefaultAliasAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>PresentationCore.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDescriptionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>PresentationCore.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyTitleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>PresentationCore.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Security.SecurityCriticalAttribute" ref="true" />
+        </attribute>
+        <attribute>
+          <type api="T:System.Security.AllowPartiallyTrustedCallersAttribute" ref="true" />
+        </attribute>
+        <attribute>
+          <type api="T:System.CLSCompliantAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyCompanyAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>Microsoft Corporation</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </assembly>
+  </assemblies>
+  <apis>
+    <api id="N:System.Windows.Input.StylusWisp">
+      <topicdata group="api" />
+      <apidata name="System.Windows.Input.StylusWisp" group="namespace" />
+      <elements>
+        <element api="T:System.Windows.Input.StylusWisp.WispTabletDeviceCollection" />
+      </elements>
+      <file name="b0d0c678-7eb1-c48a-517a-1046c23e556d" />
+    </api>
+    <api id="T:System.Windows.Input.StylusWisp.WispTabletDeviceCollection">
+      <topicdata group="api" />
+      <apidata name="WispTabletDeviceCollection" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.Windows.Input.TabletDeviceCollection" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+        <element api="M:System.Windows.Input.TabletDeviceCollection.CopyTo(System.Windows.Input.TabletDevice[],System.Int32)" />
+        <element api="P:System.Windows.Input.TabletDeviceCollection.Count" />
+        <element api="P:System.Windows.Input.TabletDeviceCollection.IsSynchronized" />
+        <element api="P:System.Windows.Input.TabletDeviceCollection.Item(System.Int32)" />
+        <element api="P:System.Windows.Input.TabletDeviceCollection.SyncRoot" />
+        <element api="M:System.Windows.Input.TabletDeviceCollection.System#Collections#ICollection#CopyTo(System.Array,System.Int32)" />
+        <element api="M:System.Windows.Input.TabletDeviceCollection.System#Collections#IEnumerable#GetEnumerator" />
+      </elements>
+      <containers>
+        <library assembly="PresentationCore" module="PresentationCore" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Input.StylusWisp" />
+      </containers>
+      <file name="fd7ab5b6-fa36-1d09-910c-a7d079cb14ff" />
+    </api>
+    <api id="Methods.T:System.Windows.Input.StylusWisp.WispTabletDeviceCollection">
+      <topicdata name="WispTabletDeviceCollection" group="list" subgroup="Methods" typeTopicId="T:System.Windows.Input.StylusWisp.WispTabletDeviceCollection" />
+      <apidata name="WispTabletDeviceCollection" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+        <element api="M:System.Windows.Input.TabletDeviceCollection.CopyTo(System.Windows.Input.TabletDevice[],System.Int32)" />
+        <element api="M:System.Windows.Input.TabletDeviceCollection.System#Collections#ICollection#CopyTo(System.Array,System.Int32)" />
+        <element api="M:System.Windows.Input.TabletDeviceCollection.System#Collections#IEnumerable#GetEnumerator" />
+      </elements>
+      <containers>
+        <library assembly="PresentationCore" module="PresentationCore" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Input.StylusWisp" />
+        <type api="T:System.Windows.Input.StylusWisp.WispTabletDeviceCollection" />
+      </containers>
+      <file name="2c88642c-ffa4-edb5-c54b-0e3b01af1698" />
+    </api>
+    <api id="Properties.T:System.Windows.Input.StylusWisp.WispTabletDeviceCollection">
+      <topicdata name="WispTabletDeviceCollection" group="list" subgroup="Properties" typeTopicId="T:System.Windows.Input.StylusWisp.WispTabletDeviceCollection" />
+      <apidata name="WispTabletDeviceCollection" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="P:System.Windows.Input.TabletDeviceCollection.Count" />
+        <element api="P:System.Windows.Input.TabletDeviceCollection.IsSynchronized" />
+        <element api="P:System.Windows.Input.TabletDeviceCollection.Item(System.Int32)" />
+        <element api="P:System.Windows.Input.TabletDeviceCollection.SyncRoot" />
+      </elements>
+      <containers>
+        <library assembly="PresentationCore" module="PresentationCore" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Input.StylusWisp" />
+        <type api="T:System.Windows.Input.StylusWisp.WispTabletDeviceCollection" />
+      </containers>
+      <file name="4cc3ee6a-4a4e-3321-9c46-9ae321e5f7cb" />
+    </api>
+  </apis>
+</reflection>

@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2023.7.8.0" projectFile="C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Documentacion.shfbproj" started="16/12/2023 22:32:43">
+<buildStep step="Initializing">
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
+Locating components in the following folder(s):
+    C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion
+    C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins
+    C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components
+Using framework reflection data for &#39;.NET Framework 4.7.2&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
+Using presentation style &#39;VS2013&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013&#39;
+Searching for HTML Help 1 compiler...
+Found HTML Help 1 compiler in &#39;C:\Program Files (x86)\HTML Help Workshop\&#39;
+Loading and initializing plug-ins...
+Lightweight Website Style Version 2023.7.8.0
+Copyright &#169; 2006-2023, Eric Woodruff, All Rights Reserved
+Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\MambrinoVictoria\bin\Debug\MambrinoVictoria.xml
+Source: C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\MambrinoVictoria\bin\Debug\MambrinoVictoria.exe
+    Found assembly &#39;C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\MambrinoVictoria\bin\Debug\MambrinoVictoria.exe&#39;
+
+Copying XML comments files
+    C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\MambrinoVictoria\bin\Debug\MambrinoVictoria.xml -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\MambrinoVictoria.xml
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (es-ES, Espa&#241;ol (Espa&#241;a))...
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+</plugIn>    Last step completed in 00:00:00,0009
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00,0000
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-a88e2c7f-bda9-45c0-94da-0f8002f912d9.proj]
+Compilaci&#162;n iniciada a las 16/12/2023 22:32:44.
+
+Proyecto &quot;C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\GenerateRefInfo-a88e2c7f-bda9-45c0-94da-0f8002f912d9.proj&quot; en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio &quot;obj\Debug\&quot;.
+GenerateRefInfo:
+  Microsoft.Build (v17.7.2+d6990bcfaf520c0d215a194fad0617f7efad68b4)
+  &#184; Microsoft Corporation. All rights reserved.
+  No source code context base path specified.  Source context information is unavailable.
+  Loaded 1 assemblies for reflection and 1 dependency assemblies.
+  Wrote information on 5 namespaces, 26 types, and 475 members
+  Merging duplicate type and member information
+  Merged 0 duplicate type(s) and 0 duplicate member(s)
+Compilaci&#162;n del proyecto terminada &quot;C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\GenerateRefInfo-a88e2c7f-bda9-45c0-94da-0f8002f912d9.proj&quot; (destinos predeterminados).
+    Last step completed in 00:00:01,1825
+</buildStep>
+<buildStep step="ApplyDocumentModel">
+Applying document model to reflection output...
+    Last step completed in 00:00:00,5524
+</buildStep>
+<buildStep step="AddApiTopicFilenames">
+Adding topic filenames to API members...
+    Last step completed in 00:00:00,2191
+</buildStep>
+<buildStep step="GenerateApiTopicManifest">
+Generating API topic manifest...
+    Last step completed in 00:00:00,2306
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00,1592
+</buildStep>
+<buildStep step="CopyConceptualContent">
+Copying conceptual content...
+Checking for token files...
+Checking for code snippets files...
+Copying images and creating the media map file...
+Generating conceptual topic files
+    Parsing topic file &#39;C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Content\Welcome.aml&#39;
+    C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Content\Welcome.aml -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\ddueXml\9e181fb5-a846-4408-9684-fba4a4d94428.xml
+    Parsing topic file &#39;C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Content\VersionHistory\VersionHistory.aml&#39;
+    C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Content\VersionHistory\VersionHistory.aml -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\ddueXml\1c59a81a-4fc9-4cd2-8141-21d41d07ccdb.xml
+    Parsing topic file &#39;C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Content\VersionHistory\v1.0.0.0.aml&#39;
+    C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Content\VersionHistory\v1.0.0.0.aml -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\ddueXml\f03bc1dd-65cf-4dbf-ac99-90f7d394d55e.xml
+    Last step completed in 00:00:00,0209
+</buildStep>
+<buildStep step="CreateConceptualTopicConfigs">
+Creating conceptual topic configuration files...
+    Companion files
+    _ContentMetadata_.xml
+    Merging topic IDs into reference topic manifest file
+    Last step completed in 00:00:00,0055
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\icons\Help.png -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\Help.png
+    Last step completed in 00:00:00,0041
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00,0000
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file for API content...
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:00,2677
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    Last step completed in 00:00:00,2848
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00,0023
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\BuildAssembler.config
+  Updating reference topic configurations.
+  Updating conceptual topic configurations.
+    Removing unused ExampleComponent.
+    Last step completed in 00:00:00,0056
+</buildStep>
+<buildStep step="BuildTopics">
+Building help topics...
+Loading configuration...
+Processing topics...
+SHFB: Warning BE0066: ShowMissingComponent: [N:MambrinoVictoria] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MambrinoVictoria.MainWindow] Member ID URL resolver service failed.  No further look ups will be performed for this build.
+Reason: Error en el servidor remoto: (403) Prohibido.
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.MainWindow._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.MainWindow.baseDeDatos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.MainWindow.Conectar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.MainWindow.Contrase&#241;a] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.MainWindow.Puerto] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.MainWindow.Servidor] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.MainWindow.Usuario] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:MambrinoVictoria.BaseDeDatos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ActualizarAlerta(System.String,System.String,System.DateTime,System.Int32)] Missing &lt;param name=&quot;nuevaDescripcion&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ActualizarAlerta(System.String,System.String,System.DateTime,System.Int32)] Missing &lt;param name=&quot;nuevasObservaciones&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ActualizarAlerta(System.String,System.String,System.DateTime,System.Int32)] Missing &lt;param name=&quot;nuevaFecha&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ActualizarAlerta(System.String,System.String,System.DateTime,System.Int32)] Missing &lt;param name=&quot;nhc&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.AgregarPaciente(System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;nif&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.AgregarPaciente(System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;numeroSS&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.AgregarPaciente(System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;nombre&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.AgregarPaciente(System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;apellido1&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.AgregarPaciente(System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;apellido2&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.AgregarPaciente(System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;sexo&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.AgregarPaciente(System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;fechaNacimiento&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.AgregarPaciente(System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;telefono1&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.AgregarPaciente(System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;telefono2&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.AgregarPaciente(System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;movil&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.AgregarPaciente(System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;estadoCivil&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.AgregarPaciente(System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;estudios&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.AgregarPaciente(System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;fallecido&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.AgregarPaciente(System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;nacionalidad&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.AgregarPaciente(System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;cAutonoma&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.AgregarPaciente(System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;provincia&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.AgregarPaciente(System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;poblacion&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.AgregarPaciente(System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;cp&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.AgregarPaciente(System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;direccion&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.AgregarPaciente(System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;titular&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.AgregarPaciente(System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;regimen&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.AgregarPaciente(System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;tis&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.AgregarPaciente(System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;medico&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.AgregarPaciente(System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;cap&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.AgregarPaciente(System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;zona&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.AgregarPaciente(System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;area&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.AgregarPaciente(System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;nacimiento&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.AgregarPaciente(System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;cAutonomaNacimiento&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.AgregarPaciente(System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;provinciaNacimiento&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.AgregarPaciente(System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;poblacionNacimiento&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.AgregarUsuario(System.String,System.String,System.String,System.Int32,System.String,System.Int32)] Missing &lt;param name=&quot;nombre&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.AgregarUsuario(System.String,System.String,System.String,System.Int32,System.String,System.Int32)] Missing &lt;param name=&quot;apellidos&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.AgregarUsuario(System.String,System.String,System.String,System.Int32,System.String,System.Int32)] Missing &lt;param name=&quot;email&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.AgregarUsuario(System.String,System.String,System.String,System.Int32,System.String,System.Int32)] Missing &lt;param name=&quot;ir_rol&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.AgregarUsuario(System.String,System.String,System.String,System.Int32,System.String,System.Int32)] Missing &lt;param name=&quot;contrase&#241;a&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.AgregarUsuario(System.String,System.String,System.String,System.Int32,System.String,System.Int32)] Missing &lt;param name=&quot;id_centro&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.BloquearCama(System.Int32,System.Boolean)] Missing &lt;param name=&quot;idCama&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.BloquearCama(System.Int32,System.Boolean)] Missing &lt;param name=&quot;bloquear&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.BaseDeDatos.BDD.bloqueo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.BuscarPacientesPorZonaBasica(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.BuscarPacientesPorZonaBasica(System.String)] Missing &lt;param name=&quot;Zona&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.CalcularEdad(System.DateTime)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.CalcularEdad(System.DateTime)] Missing &lt;param name=&quot;fechaNacimiento&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ComprobarCamaBloqueada(System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ComprobarCamaBloqueada(System.Int32)] Missing &lt;param name=&quot;idCama&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.BaseDeDatos.BDD.conexion] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MambrinoVictoria.BaseDeDatos.BDD.conexion] Unknown reference link target &#39;T:MySql.Data.MySqlClient.MySqlConnection&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.BaseDeDatos.BDD.conn] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:MambrinoVictoria.BaseDeDatos.BDD.Contrase&#241;a] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:MambrinoVictoria.BaseDeDatos.BDD.Contrase&#241;a] Missing &lt;value&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.CrearAlerta(System.String,System.String,System.DateTime,System.Int32)] Missing &lt;param name=&quot;descripcion&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.CrearAlerta(System.String,System.String,System.DateTime,System.Int32)] Missing &lt;param name=&quot;observaciones&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.CrearAlerta(System.String,System.String,System.DateTime,System.Int32)] Missing &lt;param name=&quot;fecha&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.CrearAlerta(System.String,System.String,System.DateTime,System.Int32)] Missing &lt;param name=&quot;nhc&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.DarAltaPaciente(System.Int32,System.DateTime,System.TimeSpan,System.String,System.String,System.Int32)] Missing &lt;param name=&quot;idCama&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.DarAltaPaciente(System.Int32,System.DateTime,System.TimeSpan,System.String,System.String,System.Int32)] Missing &lt;param name=&quot;fecha&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.DarAltaPaciente(System.Int32,System.DateTime,System.TimeSpan,System.String,System.String,System.Int32)] Missing &lt;param name=&quot;hora&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.DarAltaPaciente(System.Int32,System.DateTime,System.TimeSpan,System.String,System.String,System.Int32)] Missing &lt;param name=&quot;motivo&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.DarAltaPaciente(System.Int32,System.DateTime,System.TimeSpan,System.String,System.String,System.Int32)] Missing &lt;param name=&quot;tipo&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.DarAltaPaciente(System.Int32,System.DateTime,System.TimeSpan,System.String,System.String,System.Int32)] Missing &lt;param name=&quot;nhc&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.EliminarUsuario(System.String)] Missing &lt;param name=&quot;nombreCompleto&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.EsAdministrador(System.String,System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.EsAdministrador(System.String,System.String)] Missing &lt;param name=&quot;usuario&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.EsAdministrador(System.String,System.String)] Missing &lt;param name=&quot;clave&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.IngresarPaciente(System.String,System.Int32,System.DateTime,System.TimeSpan,System.Int32,System.Int32)] Missing &lt;param name=&quot;estadoHnc&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.IngresarPaciente(System.String,System.Int32,System.DateTime,System.TimeSpan,System.Int32,System.Int32)] Missing &lt;param name=&quot;idAmbito&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.IngresarPaciente(System.String,System.Int32,System.DateTime,System.TimeSpan,System.Int32,System.Int32)] Missing &lt;param name=&quot;fecha&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.IngresarPaciente(System.String,System.Int32,System.DateTime,System.TimeSpan,System.Int32,System.Int32)] Missing &lt;param name=&quot;hora&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.IngresarPaciente(System.String,System.Int32,System.DateTime,System.TimeSpan,System.Int32,System.Int32)] Missing &lt;param name=&quot;idCama&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.IngresarPaciente(System.String,System.Int32,System.DateTime,System.TimeSpan,System.Int32,System.Int32)] Missing &lt;param name=&quot;nhc&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.IniciarSesion(System.String,System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.IniciarSesion(System.String,System.String)] Missing &lt;param name=&quot;email&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.IniciarSesion(System.String,System.String)] Missing &lt;param name=&quot;clave&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.BaseDeDatos.BDD.instancia] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ModificarPaciente(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;nif&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ModificarPaciente(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;telefono1&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ModificarPaciente(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;telefono2&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ModificarPaciente(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;movil&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ModificarPaciente(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;estadoCivil&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ModificarPaciente(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;estudios&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ModificarPaciente(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;fallecido&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ModificarPaciente(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;cAutonoma&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ModificarPaciente(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;provincia&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ModificarPaciente(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;poblacion&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ModificarPaciente(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;direccion&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ModificarPaciente(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;cp&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ModificarUsuarioAdmin(System.String,System.String)] Missing &lt;param name=&quot;nuevoUsuario&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ModificarUsuarioAdmin(System.String,System.String)] Missing &lt;param name=&quot;nuevaContrase&#241;a&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.MostrarAlerta(System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.MostrarAlerta(System.Int32)] Missing &lt;param name=&quot;nhc&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.MostrarInfoAlertaPaciente(System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.MostrarInfoAlertaPaciente(System.Int32)] Missing &lt;param name=&quot;nhc&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.MostrarInfoPacienteSeleccionado(System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.MostrarInfoPacienteSeleccionado(System.Int32)] Missing &lt;param name=&quot;nhc&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.MostrarPaciente(System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.MostrarPaciente(System.Int32)] Missing &lt;param name=&quot;nhc&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerAlertaPaciente(System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerAlertaPaciente(System.Int32)] Missing &lt;param name=&quot;nhc&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerAltasPorPaciente(System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerAltasPorPaciente(System.Int32)] Missing &lt;param name=&quot;nhcPaciente&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerAreaSalud] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerBalancesHidricosPorPaciente(System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerBalancesHidricosPorPaciente(System.Int32)] Missing &lt;param name=&quot;nhcPaciente&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerCamasPorPlantas(System.Int32,System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerCamasPorPlantas(System.Int32,System.Int32)] Missing &lt;param name=&quot;planta&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerCamasPorPlantas(System.Int32,System.Int32)] Missing &lt;param name=&quot;centro&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerCAP(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerCAP(System.String)] Missing &lt;param name=&quot;zona&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerComunidadesA] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerEdadPaciente(System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerEdadPaciente(System.Int32)] Missing &lt;param name=&quot;nhc&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerHojasPrescripcionPorPaciente(System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerHojasPrescripcionPorPaciente(System.Int32)] Missing &lt;param name=&quot;nhcPaciente&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerIdCama(System.String,System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerIdCama(System.String,System.Int32)] Missing &lt;param name=&quot;refCama&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerIdCama(System.String,System.Int32)] Missing &lt;param name=&quot;id_centro&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerIdCentro(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerIdCentro(System.String)] Missing &lt;param name=&quot;centro&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerIngresosPorPaciente(System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerIngresosPorPaciente(System.Int32)] Missing &lt;param name=&quot;nhcPaciente&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerNHCporIdCama(System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerNHCporIdCama(System.Int32)] Missing &lt;param name=&quot;idCama&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerNHCporNIF(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerNHCporNIF(System.String)] Missing &lt;param name=&quot;nif&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerNIFPaciente(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerNIFPaciente(System.String)] Missing &lt;param name=&quot;nombreCompleto&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerNIFporHNC(System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerNIFporHNC(System.Int32)] Missing &lt;param name=&quot;nhc&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerNombresCentros] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerNombresUsuarios(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerNombresUsuarios(System.String)] Missing &lt;param name=&quot;perfil&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerNotasEnfermeriaPorPaciente(System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerNotasEnfermeriaPorPaciente(System.Int32)] Missing &lt;param name=&quot;nhcPaciente&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerPatologiasPorPaciente(System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerPatologiasPorPaciente(System.Int32)] Missing &lt;param name=&quot;nhcPaciente&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerProvinciasPorComunidad(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerProvinciasPorComunidad(System.String)] Missing &lt;param name=&quot;comunidad&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerRoles] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerSexoPaciente(System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerSexoPaciente(System.Int32)] Missing &lt;param name=&quot;nhc&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerSintomaDiagnosticoPorPaciente(System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerSintomaDiagnosticoPorPaciente(System.Int32)] Missing &lt;param name=&quot;nhcPaciente&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerUsuarios] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerZonaBasicaporArea(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerZonaBasicaporArea(System.String)] Missing &lt;param name=&quot;area&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.PacienteIngresadoEnCama(System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.PacienteIngresadoEnCama(System.Int32)] Missing &lt;param name=&quot;nhcPaciente&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:MambrinoVictoria.BaseDeDatos.BDD.Puerto] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:MambrinoVictoria.BaseDeDatos.BDD.Puerto] Missing &lt;value&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarEventoEnHilo(System.String,System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarEventoEnHilo(System.String,System.String)] Missing &lt;param name=&quot;tipo&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarEventoEnHilo(System.String,System.String)] Missing &lt;param name=&quot;descripcion&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarHojaPrescripcion(System.Int32,System.String,System.String,System.String,System.String,System.String,System.DateTime)] Missing &lt;param name=&quot;nhcPaciente&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarHojaPrescripcion(System.Int32,System.String,System.String,System.String,System.String,System.String,System.DateTime)] Missing &lt;param name=&quot;especialidad&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarHojaPrescripcion(System.Int32,System.String,System.String,System.String,System.String,System.String,System.DateTime)] Missing &lt;param name=&quot;principioActivo&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarHojaPrescripcion(System.Int32,System.String,System.String,System.String,System.String,System.String,System.DateTime)] Missing &lt;param name=&quot;dosis&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarHojaPrescripcion(System.Int32,System.String,System.String,System.String,System.String,System.String,System.DateTime)] Missing &lt;param name=&quot;viaAdministracion&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarHojaPrescripcion(System.Int32,System.String,System.String,System.String,System.String,System.String,System.DateTime)] Missing &lt;param name=&quot;frecuencia&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarHojaPrescripcion(System.Int32,System.String,System.String,System.String,System.String,System.String,System.DateTime)] Missing &lt;param name=&quot;fechaFinTratamiento&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarNotasEnfermeria(System.Int32,System.DateTime,System.TimeSpan,System.Decimal,System.Int32,System.Int32,System.Int32,System.Int32,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;nhcPaciente&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarNotasEnfermeria(System.Int32,System.DateTime,System.TimeSpan,System.Decimal,System.Int32,System.Int32,System.Int32,System.Int32,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;fechaToma&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarNotasEnfermeria(System.Int32,System.DateTime,System.TimeSpan,System.Decimal,System.Int32,System.Int32,System.Int32,System.Int32,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;horaToma&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarNotasEnfermeria(System.Int32,System.DateTime,System.TimeSpan,System.Decimal,System.Int32,System.Int32,System.Int32,System.Int32,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;temperatura&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarNotasEnfermeria(System.Int32,System.DateTime,System.TimeSpan,System.Decimal,System.Int32,System.Int32,System.Int32,System.Int32,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;tensionArterialSistolica&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarNotasEnfermeria(System.Int32,System.DateTime,System.TimeSpan,System.Decimal,System.Int32,System.Int32,System.Int32,System.Int32,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;tensionArterialDiastolica&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarNotasEnfermeria(System.Int32,System.DateTime,System.TimeSpan,System.Decimal,System.Int32,System.Int32,System.Int32,System.Int32,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;frecuenciaCardiaca&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarNotasEnfermeria(System.Int32,System.DateTime,System.TimeSpan,System.Decimal,System.Int32,System.Int32,System.Int32,System.Int32,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;frecuenciaRespiratoria&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarNotasEnfermeria(System.Int32,System.DateTime,System.TimeSpan,System.Decimal,System.Int32,System.Int32,System.Int32,System.Int32,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;peso&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarNotasEnfermeria(System.Int32,System.DateTime,System.TimeSpan,System.Decimal,System.Int32,System.Int32,System.Int32,System.Int32,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;talla&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarNotasEnfermeria(System.Int32,System.DateTime,System.TimeSpan,System.Decimal,System.Int32,System.Int32,System.Int32,System.Int32,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;indiceMasaCorporal&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarNotasEnfermeria(System.Int32,System.DateTime,System.TimeSpan,System.Decimal,System.Int32,System.Int32,System.Int32,System.Int32,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;glucemiaCapilar&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarNotasEnfermeria(System.Int32,System.DateTime,System.TimeSpan,System.Decimal,System.Int32,System.Int32,System.Int32,System.Int32,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;ingestaAlimentos&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarNotasEnfermeria(System.Int32,System.DateTime,System.TimeSpan,System.Decimal,System.Int32,System.Int32,System.Int32,System.Int32,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;tipoDeposicion&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarNotasEnfermeria(System.Int32,System.DateTime,System.TimeSpan,System.Decimal,System.Int32,System.Int32,System.Int32,System.Int32,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;nauseas&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarNotasEnfermeria(System.Int32,System.DateTime,System.TimeSpan,System.Decimal,System.Int32,System.Int32,System.Int32,System.Int32,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;prurito&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarNotasEnfermeria(System.Int32,System.DateTime,System.TimeSpan,System.Decimal,System.Int32,System.Int32,System.Int32,System.Int32,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;observaciones&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarNotasEnfermeria(System.Int32,System.DateTime,System.TimeSpan,System.Decimal,System.Int32,System.Int32,System.Int32,System.Int32,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;balanceHidricoEntradaAlimentos&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarNotasEnfermeria(System.Int32,System.DateTime,System.TimeSpan,System.Decimal,System.Int32,System.Int32,System.Int32,System.Int32,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;balanceHidricoEntradaLiquidos&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarNotasEnfermeria(System.Int32,System.DateTime,System.TimeSpan,System.Decimal,System.Int32,System.Int32,System.Int32,System.Int32,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;balanceHidricoFluidoterapia&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarNotasEnfermeria(System.Int32,System.DateTime,System.TimeSpan,System.Decimal,System.Int32,System.Int32,System.Int32,System.Int32,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;balanceHidricoHemoderivados&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarNotasEnfermeria(System.Int32,System.DateTime,System.TimeSpan,System.Decimal,System.Int32,System.Int32,System.Int32,System.Int32,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;balanceHidricoOtrosEntrada&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarNotasEnfermeria(System.Int32,System.DateTime,System.TimeSpan,System.Decimal,System.Int32,System.Int32,System.Int32,System.Int32,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;balanceHidricoDiuresis&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarNotasEnfermeria(System.Int32,System.DateTime,System.TimeSpan,System.Decimal,System.Int32,System.Int32,System.Int32,System.Int32,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;balanceHidricoVomitos&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarNotasEnfermeria(System.Int32,System.DateTime,System.TimeSpan,System.Decimal,System.Int32,System.Int32,System.Int32,System.Int32,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;balanceHidricoHeces&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarNotasEnfermeria(System.Int32,System.DateTime,System.TimeSpan,System.Decimal,System.Int32,System.Int32,System.Int32,System.Int32,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;balanceHidricoSondaNasogastrica&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarNotasEnfermeria(System.Int32,System.DateTime,System.TimeSpan,System.Decimal,System.Int32,System.Int32,System.Int32,System.Int32,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;balanceHidricoDrenajes&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarNotasEnfermeria(System.Int32,System.DateTime,System.TimeSpan,System.Decimal,System.Int32,System.Int32,System.Int32,System.Int32,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;balanceHidricoOtrasPerdidas&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarNotasEnfermeria(System.Int32,System.DateTime,System.TimeSpan,System.Decimal,System.Int32,System.Int32,System.Int32,System.Int32,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;totalBalanceHidrico&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarPatologia(System.Int32,System.DateTime,System.DateTime,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;nhcPaciente&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarPatologia(System.Int32,System.DateTime,System.DateTime,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;fechaSintomas&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarPatologia(System.Int32,System.DateTime,System.DateTime,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;fechaDiagnostico&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarPatologia(System.Int32,System.DateTime,System.DateTime,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;sintomas&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarPatologia(System.Int32,System.DateTime,System.DateTime,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;diagnostico&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarPatologia(System.Int32,System.DateTime,System.DateTime,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;especialidad&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.RegistrarPatologia(System.Int32,System.DateTime,System.DateTime,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;codificacion&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.BaseDeDatos.BDD.ruta] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:MambrinoVictoria.BaseDeDatos.BDD.Servidor] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:MambrinoVictoria.BaseDeDatos.BDD.Servidor] Missing &lt;value&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:MambrinoVictoria.BaseDeDatos.BDD.Usuario] Missing &lt;value&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.VerificarExistenciaNIF(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.VerificarExistenciaNIF(System.String)] Missing &lt;param name=&quot;nif&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.VerificarExistenciaNumeroSS(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.VerificarExistenciaNumeroSS(System.String)] Missing &lt;param name=&quot;numeroSS&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.VerificarExistenciaTIS(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.VerificarExistenciaTIS(System.String)] Missing &lt;param name=&quot;tis&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.VerificarPacienteIngresado(System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.VerificarPacienteIngresado(System.Int32)] Missing &lt;param name=&quot;idCama&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:MambrinoVictoria.Paginas] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Paginas.Inicio._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.Paginas.Inicio._CreateDelegate(System.Type,System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.Paginas.Inicio._CreateDelegate(System.Type,System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.Paginas.Inicio._CreateDelegate(System.Type,System.String)] Missing &lt;param name=&quot;delegateType&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.Paginas.Inicio._CreateDelegate(System.Type,System.String)] Missing &lt;param name=&quot;handler&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Paginas.Inicio.ayuda] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Paginas.Inicio.baseDeDatos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Paginas.Inicio.clave] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Paginas.Inicio.registro] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Paginas.Inicio.uc1] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Paginas.Inicio.UsCon1] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Paginas.Inicio.usuario] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:MambrinoVictoria.Programa] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Acceso._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Acceso.aceptar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Acceso.ambito] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Acceso.c] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Acceso.idioma] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Acceso.u] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.AltaPaciente._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.AltaPaciente.aceptar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.AltaPaciente.baseDeDatos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.AltaPaciente.cama] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.AltaPaciente.fecha] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.AltaPaciente.hora] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.AltaPaciente.idCama] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.AltaPaciente.motivo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.AltaPaciente.nhc] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.AltaPaciente.nhcP] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.AltaPaciente.tipo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.AuxPacientes._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.AuxPacientes.baseDeDatos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.AuxPacientes.pacientes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.AuxPacientes.seleccionar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.BusquedaPaciente._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.BusquedaPaciente.areaSalud] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.BusquedaPaciente.baseDeDatos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.BusquedaPaciente.buscar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.BusquedaPaciente.nhc] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.BusquedaPaciente.nif] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.BusquedaPaciente.zonaBasica] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.CrearPaciente._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.CrearPaciente.aceptar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.CrearPaciente.apellido1] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.CrearPaciente.apellido2] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.CrearPaciente.areaSalud] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.CrearPaciente.baseDeDatos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.CrearPaciente.cap] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.CrearPaciente.cAutonoma] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.CrearPaciente.cAutonomaNac] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.CrearPaciente.cp] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.CrearPaciente.direccion] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.CrearPaciente.estadoCivil] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.CrearPaciente.esTitularNombre] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.CrearPaciente.estudios] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.CrearPaciente.extranjero] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.CrearPaciente.extranjeroNac] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.CrearPaciente.fechaNacimiento] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.CrearPaciente.medicoPrimaria] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.CrearPaciente.movil] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.CrearPaciente.nacional] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.CrearPaciente.nacionalNac] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.CrearPaciente.nhc] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.CrearPaciente.nif] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.CrearPaciente.nombre] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.CrearPaciente.numeross] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.CrearPaciente.poblacion] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.CrearPaciente.PoblacionNac] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.CrearPaciente.provincia] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.CrearPaciente.provinciaNac] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.CrearPaciente.regimen] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.CrearPaciente.sexo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.CrearPaciente.telefono1] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.CrearPaciente.telefono2] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.CrearPaciente.tis] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.CrearPaciente.titular] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.CrearPaciente.zonaBasicaSalud] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.EliminarUsuario._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.EliminarUsuario.baseDeDatos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.EliminarUsuario.eliminar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.EliminarUsuario.perfil] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.EliminarUsuario.usuario] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.GestionAlertas._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.GestionAlertas.aceptar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.GestionAlertas.baseDeDatos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.GestionAlertas.descripcion] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.GestionAlertas.fecha] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.GestionAlertas.modificar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.GestionAlertas.nhc] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.GestionAlertas.observaciones] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.HojaPrescripcion._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.HojaPrescripcion.aceptar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.HojaPrescripcion.baseDeDatos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.HojaPrescripcion.dosis] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.HojaPrescripcion.especialidad] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.HojaPrescripcion.fechaFinTrat] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.HojaPrescripcion.frecuencia] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.HojaPrescripcion.nhc] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.HojaPrescripcion.principioActivo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.HojaPrescripcion.via] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Hospitalizacion._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Hospitalizacion.aceptar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Hospitalizacion.ambito] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Hospitalizacion.baseDeDatos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Hospitalizacion.cama] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Hospitalizacion.estado] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Hospitalizacion.fecha] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Hospitalizacion.hora] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Hospitalizacion.idCama] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Hospitalizacion.nhc] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Hospitalizacion.nif] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Informe._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Informe.aceptar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.Programa.Informe.aceptar_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.Programa.Informe.aceptar_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.Programa.Informe.aceptar_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Informe.baseDeDatos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Informe.listaAltas] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Informe.listaBalances] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Informe.listaIngresos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Informe.listaNotas] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Informe.nhc] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.ModificarAdmin._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.ModificarAdmin.aceptar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.ModificarAdmin.baseDeDatos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.ModificarAdmin.con] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.ModificarAdmin.contrase&#241;a] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.ModificarAdmin.us] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.ModificarAdmin.usuario] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.NotasEnfermeria._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.NotasEnfermeria.aceptar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.NotasEnfermeria.b1] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.NotasEnfermeria.b2] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.NotasEnfermeria.b3] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.NotasEnfermeria.b4] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.NotasEnfermeria.balAlimentos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.NotasEnfermeria.balDiuresis] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.NotasEnfermeria.balDrenajes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.NotasEnfermeria.balFluidoterapia] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.NotasEnfermeria.balHeces] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.NotasEnfermeria.balHemoderivados] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.NotasEnfermeria.balLiquidos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.NotasEnfermeria.balOtrasPedidas] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.NotasEnfermeria.balOtros] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.NotasEnfermeria.balSonda] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.NotasEnfermeria.balVomitos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.NotasEnfermeria.baseDeDatos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.Programa.NotasEnfermeria.CalcularIMC(System.Decimal,System.Decimal)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.Programa.NotasEnfermeria.CalcularTotalBalanceHidrico(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.Programa.NotasEnfermeria.CalcularTotalBalanceHidrico(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;entradaAlimentos&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.Programa.NotasEnfermeria.CalcularTotalBalanceHidrico(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;entradaLiquidos&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.Programa.NotasEnfermeria.CalcularTotalBalanceHidrico(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;entradaFluidoterapia&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.Programa.NotasEnfermeria.CalcularTotalBalanceHidrico(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;entradaHemoderivados&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.Programa.NotasEnfermeria.CalcularTotalBalanceHidrico(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;entradaOtros&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.Programa.NotasEnfermeria.CalcularTotalBalanceHidrico(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;salidaDiuresis&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.Programa.NotasEnfermeria.CalcularTotalBalanceHidrico(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;salidaVomitos&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.Programa.NotasEnfermeria.CalcularTotalBalanceHidrico(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;salidaHeces&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.Programa.NotasEnfermeria.CalcularTotalBalanceHidrico(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;salidaSonda&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.Programa.NotasEnfermeria.CalcularTotalBalanceHidrico(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;salidaDrenajes&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.Programa.NotasEnfermeria.CalcularTotalBalanceHidrico(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;salidaOtrasPerdidas&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.Programa.NotasEnfermeria.ConvertToInt(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.NotasEnfermeria.deposicion] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.NotasEnfermeria.diastolica] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.NotasEnfermeria.fecha] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.NotasEnfermeria.frecuenciaCard] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.NotasEnfermeria.frecuenciaResp] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.NotasEnfermeria.glucemia] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.NotasEnfermeria.hora] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.NotasEnfermeria.imc] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.NotasEnfermeria.ingestaAl] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.NotasEnfermeria.nauseas] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.NotasEnfermeria.nhc] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.NotasEnfermeria.observaciones] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.NotasEnfermeria.peso] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.NotasEnfermeria.prurito] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.NotasEnfermeria.sistolica] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.NotasEnfermeria.talla] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.NotasEnfermeria.temperatura] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.NotasEnfermeria.totBalHid] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Patologia._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Patologia.aceptar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Patologia.baseDeDatos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Patologia.codificacion] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Patologia.diagnostico] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Patologia.especialidad] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Patologia.fechaDiagnostico] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Patologia.fechaSintomas] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Patologia.nhc] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Patologia.sintomas] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Principal._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.Programa.Principal._CreateDelegate(System.Type,System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.Programa.Principal._CreateDelegate(System.Type,System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.Programa.Principal._CreateDelegate(System.Type,System.String)] Missing &lt;param name=&quot;delegateType&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.Programa.Principal._CreateDelegate(System.Type,System.String)] Missing &lt;param name=&quot;handler&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Principal.admin] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Principal.alerta] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Principal.alertaMini] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Principal.alertas] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Principal.alta] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Principal.asignarCama] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Principal.baseDeDatos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Principal.botones] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Principal.buscar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Principal.cama] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Principal.camaMini] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Principal.candadoRojo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Principal.candadoVerde] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Principal.clave] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Principal.consultar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Principal.diagnostico] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Principal.edad] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Principal.eliminar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Principal.hospital] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Principal.hospitales] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Principal.idCama] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Principal.idCentro] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Principal.informes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Principal.inicio] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Principal.modificar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Principal.nhcPaSel] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Principal.nombre_completo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Principal.notas] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Principal.pacienteNuevo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Principal.patologia] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Principal.pl] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Principal.planta] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Principal.prescripcion] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Principal.procesos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Principal.refCama] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Principal.restablecer] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Principal.rutaImagen] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Principal.sintomas] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Principal.usC2] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Principal.usC3] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.Principal.usuario] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.RegistroUs._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.RegistroUs.aceptar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.RegistroUs.apellidos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.RegistroUs.apes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.RegistroUs.baseDeDatos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.RegistroUs.cent] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.RegistroUs.centro] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.RegistroUs.con] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.RegistroUs.contrase&#241;a] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.RegistroUs.em] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.RegistroUs.email] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.RegistroUs.nom] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.RegistroUs.nombre] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.RegistroUs.per] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.RegistroUs.perfil] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.VerPaciente._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.VerPaciente.aceptar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.VerPaciente.apellido1] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.VerPaciente.apellido2] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.VerPaciente.areaSalud] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.VerPaciente.baseDeDatos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.VerPaciente.cap] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.VerPaciente.cAutonoma] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.VerPaciente.cAutonomaNac] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.VerPaciente.cp] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.VerPaciente.direccion] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.VerPaciente.estadoCivil] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.VerPaciente.esTitularNombre] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.VerPaciente.estudios] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.VerPaciente.fallecido] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.VerPaciente.fechaNacimiento] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.VerPaciente.medicoPrimaria] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.VerPaciente.modificar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.VerPaciente.movil] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.VerPaciente.nacionalidad] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.VerPaciente.nacionalidadNac] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.VerPaciente.nhc] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.VerPaciente.nif] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.VerPaciente.nombre] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.VerPaciente.numeross] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.VerPaciente.poblacion] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.VerPaciente.poblacionNac] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.VerPaciente.provincia] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.VerPaciente.provinciaNac] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.VerPaciente.regimen] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.VerPaciente.sexo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.VerPaciente.telefono1] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.VerPaciente.telefono2] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.VerPaciente.tis] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.Programa.VerPaciente.zonaBasicaSalud] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:MambrinoVictoria.UserCon] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.UserCon.UserControl1._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.UserCon.UserControl1.aceptar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.UserCon.UserControl1.clav] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.UserCon.UserControl1.usu] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.UserCon.UserControl2._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.UserCon.UserControl2.a&#241;adir] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.UserCon.UserControl2.cancelar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.UserCon.UserControl2.lista] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.UserCon.UserControl3._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.UserCon.UserControl3.a&#241;adir] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.UserCon.UserControl3.cancelar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.UserCon.UserControl3.lista] Missing &lt;summary&gt; documentation
+Processed 599 topic(s)
+520 warning(s)
+CopyFromIndexComponent: &quot;metadata&quot; in-memory cache entries used: 1 of 15.
+ResolveArtLinksComponent: Copying media files...
+CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 7 of 15.
+CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 5 of 30.
+    Last step completed in 00:03:04,0462
+</buildStep>
+<buildStep step="ExtractingHtmlInfo">
+Extracting HTML info for HTML Help 1 and/or website...
+Using LCID &#39;3082&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
+Processing Help 1 files in C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1
+Processed 599 HTML files.  Sorting keywords and generating See Also indices.
+Saving HTML Help 1 keyword index to C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\Documentacion.hhk
+Saving HTML Help 1 table of contents to C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\Documentacion.hhc
+    Last step completed in 00:00:00,1404
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\AlertCaution.png -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\AlertNote.png -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\AlertSecurity.png -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\CodeExample.png -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\favicon.ico -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privClass.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\privClass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privDelegate.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\privDelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privEnumeration.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\privEnumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privEvent.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\privEvent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privExtension.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\privExtension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privField.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\privField.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privInterface.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\privInterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privMethod.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\privMethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privProperty.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\privProperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privStructure.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\privStructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protClass.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\protClass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protDelegate.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\protDelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protEnumeration.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\protEnumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protEvent.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\protEvent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protExtension.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\protExtension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protField.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\protField.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protInterface.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\protInterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protMethod.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\protMethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protOperator.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\protOperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protProperty.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\protProperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protStructure.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\protStructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubClass.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\pubClass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubDelegate.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\pubDelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubEnumeration.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\pubEnumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubEvent.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\pubEvent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubExtension.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\pubExtension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubField.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\pubField.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubInterface.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\pubInterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubMethod.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\pubMethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubOperator.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\pubOperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubProperty.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\pubProperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubStructure.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\pubStructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\SectionCollapsed.png -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\SectionCollapsed.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\SectionExpanded.png -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\SectionExpanded.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\Static.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\Static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\scripts\branding.js -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\scripts\branding.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-cs-CZ.css -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-cs-CZ.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-de-DE.css -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-de-DE.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-en-US.css -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-en-US.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-es-ES.css -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-es-ES.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-fr-FR.css -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-fr-FR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-Help1.css -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-Help1.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-HelpViewer.css -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-HelpViewer.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-it-IT.css -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-it-IT.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-ja-JP.css -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-ko-KR.css -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-pl-PL.css -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-pl-PL.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-pt-BR.css -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-pt-BR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-ru-RU.css -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-ru-RU.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-tr-TR.css -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-tr-TR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-Website.css -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-Website.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-zh-CN.css -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-zh-TW.css -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding.css -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding.css
+    Last step completed in 00:00:00,2275
+</buildStep>
+<buildStep step="GenerateHelpProject">
+Generating HTML Help 1 project file...
+    Last step completed in 00:00:00,0049
+</buildStep>
+<buildStep step="CompilingHelpFile">
+Compiling HTML Help 1 file...
+[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - Build1xHelpFile.proj]
+
+  Microsoft HTML Help Compiler 4.74.8702
+  
+  
+  
+  Compiling c:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\Documentacion.chm
+  
+  
+  
+  
+  
+  Compile time: 0 minutes, 5 seconds
+  
+  601	Topics
+  
+  6,125	Local links
+  
+  0	Internet links
+  
+  0	Graphics
+  
+  
+  
+  
+  
+  Created c:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\Documentacion.chm, 1,716,685 bytes
+  
+  Compression decreased file by 10,561,935 bytes.
+  
+    Last step completed in 00:00:05,8422
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00,1390
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 16/12/2023 22:35:57.  Total time: 00:03:13,8336
+
+</buildStep>
+</shfbBuild>

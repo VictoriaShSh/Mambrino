@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<reflection>
+  <assemblies>
+    <assembly name="System.Windows.Forms">
+      <assemblydata version="4.0.0.0" culture="" key="00000000000000000400000000000000" hash="SHA1" />
+      <attributes>
+        <attribute>
+          <type api="T:System.Drawing.BitmapSuffixInSatelliteAssemblyAttribute" ref="true" />
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.CLSCompliantAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Security.AllowPartiallyTrustedCallersAttribute" ref="true" />
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyTitleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>System.Windows.Forms.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDescriptionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>System.Windows.Forms.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDefaultAliasAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>System.Windows.Forms.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyCompanyAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>Microsoft Corporation</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyProductAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>Microsoft® .NET Framework</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyCopyrightAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>© Microsoft Corporation.  All rights reserved.</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyFileVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.8.3761.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyInformationalVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.8.3761.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Resources.SatelliteContractVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.0.0.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Resources.NeutralResourcesLanguageAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>en-US</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDelaySignAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyKeyFileAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>f:\dd\tools\devdiv\EcmaPublicKey.snk</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </assembly>
+  </assemblies>
+  <apis>
+    <api id="N:System.Windows.Forms.Automation">
+      <topicdata group="api" />
+      <apidata name="System.Windows.Forms.Automation" group="namespace" />
+      <elements>
+        <element api="T:System.Windows.Forms.Automation.AutomationLiveSetting" />
+        <element api="T:System.Windows.Forms.Automation.AutomationNotificationKind" />
+        <element api="T:System.Windows.Forms.Automation.AutomationNotificationProcessing" />
+        <element api="T:System.Windows.Forms.Automation.IAutomationLiveRegion" />
+      </elements>
+      <file name="a59c8cb5-89a9-699a-3468-932a0f1d6aea" />
+    </api>
+    <api id="T:System.Windows.Forms.Automation.AutomationLiveSetting">
+      <topicdata group="api" />
+      <apidata name="AutomationLiveSetting" group="type" subgroup="enumeration" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="F:System.Windows.Forms.Automation.AutomationLiveSetting.Off" />
+        <element api="F:System.Windows.Forms.Automation.AutomationLiveSetting.Polite" />
+        <element api="F:System.Windows.Forms.Automation.AutomationLiveSetting.Assertive" />
+      </elements>
+      <containers>
+        <library assembly="System.Windows.Forms" module="System.Windows.Forms" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Forms.Automation" />
+      </containers>
+      <file name="7dc85f31-07be-5cce-a172-c49407a1190a" />
+    </api>
+    <api id="F:System.Windows.Forms.Automation.AutomationLiveSetting.Assertive">
+      <topicdata group="api" notopic="" />
+      <apidata name="Assertive" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.Automation.AutomationLiveSetting" ref="false" />
+      </returns>
+      <value>2</value>
+      <containers>
+        <library assembly="System.Windows.Forms" module="System.Windows.Forms" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Forms.Automation" />
+        <type api="T:System.Windows.Forms.Automation.AutomationLiveSetting" ref="false" />
+      </containers>
+      <file name="e59d4d89-365c-f790-af2b-84dddc325af1" />
+    </api>
+    <api id="F:System.Windows.Forms.Automation.AutomationLiveSetting.Off">
+      <topicdata group="api" notopic="" />
+      <apidata name="Off" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.Automation.AutomationLiveSetting" ref="false" />
+      </returns>
+      <value>0</value>
+      <containers>
+        <library assembly="System.Windows.Forms" module="System.Windows.Forms" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Forms.Automation" />
+        <type api="T:System.Windows.Forms.Automation.AutomationLiveSetting" ref="false" />
+      </containers>
+      <file name="1b9b32e6-b868-a791-d531-1d74001b8b0c" />
+    </api>
+    <api id="F:System.Windows.Forms.Automation.AutomationLiveSetting.Polite">
+      <topicdata group="api" notopic="" />
+      <apidata name="Polite" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.Automation.AutomationLiveSetting" ref="false" />
+      </returns>
+      <value>1</value>
+      <containers>
+        <library assembly="System.Windows.Forms" module="System.Windows.Forms" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Forms.Automation" />
+        <type api="T:System.Windows.Forms.Automation.AutomationLiveSetting" ref="false" />
+      </containers>
+      <file name="cb6d2b3e-5fd5-005f-2440-1fd1a156dd7f" />
+    </api>
+    <api id="T:System.Windows.Forms.Automation.AutomationNotificationKind">
+      <topicdata group="api" />
+      <apidata name="AutomationNotificationKind" group="type" subgroup="enumeration" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="F:System.Windows.Forms.Automation.AutomationNotificationKind.ItemAdded" />
+        <element api="F:System.Windows.Forms.Automation.AutomationNotificationKind.ItemRemoved" />
+        <element api="F:System.Windows.Forms.Automation.AutomationNotificationKind.ActionCompleted" />
+        <element api="F:System.Windows.Forms.Automation.AutomationNotificationKind.ActionAborted" />
+        <element api="F:System.Windows.Forms.Automation.AutomationNotificationKind.Other" />
+      </elements>
+      <containers>
+        <library assembly="System.Windows.Forms" module="System.Windows.Forms" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Forms.Automation" />
+      </containers>
+      <file name="1a031a3a-8219-ad37-d6f0-2e1a4b1df85c" />
+    </api>
+    <api id="F:System.Windows.Forms.Automation.AutomationNotificationKind.ActionAborted">
+      <topicdata group="api" notopic="" />
+      <apidata name="ActionAborted" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.Automation.AutomationNotificationKind" ref="false" />
+      </returns>
+      <value>3</value>
+      <containers>
+        <library assembly="System.Windows.Forms" module="System.Windows.Forms" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Forms.Automation" />
+        <type api="T:System.Windows.Forms.Automation.AutomationNotificationKind" ref="false" />
+      </containers>
+      <file name="0f2adc2b-1df9-5753-7bb7-7d669e78a58d" />
+    </api>
+    <api id="F:System.Windows.Forms.Automation.AutomationNotificationKind.ActionCompleted">
+      <topicdata group="api" notopic="" />
+      <apidata name="ActionCompleted" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.Automation.AutomationNotificationKind" ref="false" />
+      </returns>
+      <value>2</value>
+      <containers>
+        <library assembly="System.Windows.Forms" module="System.Windows.Forms" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Forms.Automation" />
+        <type api="T:System.Windows.Forms.Automation.AutomationNotificationKind" ref="false" />
+      </containers>
+      <file name="6a95090f-7e72-fab3-2a61-9efcde5c84f3" />
+    </api>
+    <api id="F:System.Windows.Forms.Automation.AutomationNotificationKind.ItemAdded">
+      <topicdata group="api" notopic="" />
+      <apidata name="ItemAdded" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.Automation.AutomationNotificationKind" ref="false" />
+      </returns>
+      <value>0</value>
+      <containers>
+        <library assembly="System.Windows.Forms" module="System.Windows.Forms" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Forms.Automation" />
+        <type api="T:System.Windows.Forms.Automation.AutomationNotificationKind" ref="false" />
+      </containers>
+      <file name="63b3c28e-4875-15f5-8b2a-a1df61c52b5b" />
+    </api>
+    <api id="F:System.Windows.Forms.Automation.AutomationNotificationKind.ItemRemoved">
+      <topicdata group="api" notopic="" />
+      <apidata name="ItemRemoved" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.Automation.AutomationNotificationKind" ref="false" />
+      </returns>
+      <value>1</value>
+      <containers>
+        <library assembly="System.Windows.Forms" module="System.Windows.Forms" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Forms.Automation" />
+        <type api="T:System.Windows.Forms.Automation.AutomationNotificationKind" ref="false" />
+      </containers>
+      <file name="2c37407e-f32e-98e1-fd6b-0b1e904a1cac" />
+    </api>
+    <api id="F:System.Windows.Forms.Automation.AutomationNotificationKind.Other">
+      <topicdata group="api" notopic="" />
+      <apidata name="Other" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.Automation.AutomationNotificationKind" ref="false" />
+      </returns>
+      <value>4</value>
+      <containers>
+        <library assembly="System.Windows.Forms" module="System.Windows.Forms" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Forms.Automation" />
+        <type api="T:System.Windows.Forms.Automation.AutomationNotificationKind" ref="false" />
+      </containers>
+      <file name="9e5ebfe7-4972-19f2-7972-0d0c8be91090" />
+    </api>
+    <api id="T:System.Windows.Forms.Automation.AutomationNotificationProcessing">
+      <topicdata group="api" />
+      <apidata name="AutomationNotificationProcessing" group="type" subgroup="enumeration" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="F:System.Windows.Forms.Automation.AutomationNotificationProcessing.ImportantAll" />
+        <element api="F:System.Windows.Forms.Automation.AutomationNotificationProcessing.ImportantMostRecent" />
+        <element api="F:System.Windows.Forms.Automation.AutomationNotificationProcessing.All" />
+        <element api="F:System.Windows.Forms.Automation.AutomationNotificationProcessing.MostRecent" />
+        <element api="F:System.Windows.Forms.Automation.AutomationNotificationProcessing.CurrentThenMostRecent" />
+      </elements>
+      <containers>
+        <library assembly="System.Windows.Forms" module="System.Windows.Forms" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Forms.Automation" />
+      </containers>
+      <file name="21912e94-3397-a8bb-d524-cf74223dcfd7" />
+    </api>
+    <api id="F:System.Windows.Forms.Automation.AutomationNotificationProcessing.All">
+      <topicdata group="api" notopic="" />
+      <apidata name="All" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.Automation.AutomationNotificationProcessing" ref="false" />
+      </returns>
+      <value>2</value>
+      <containers>
+        <library assembly="System.Windows.Forms" module="System.Windows.Forms" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Forms.Automation" />
+        <type api="T:System.Windows.Forms.Automation.AutomationNotificationProcessing" ref="false" />
+      </containers>
+      <file name="937ab463-d582-4803-35c7-94d411c60b5a" />
+    </api>
+    <api id="F:System.Windows.Forms.Automation.AutomationNotificationProcessing.CurrentThenMostRecent">
+      <topicdata group="api" notopic="" />
+      <apidata name="CurrentThenMostRecent" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.Automation.AutomationNotificationProcessing" ref="false" />
+      </returns>
+      <value>4</value>
+      <containers>
+        <library assembly="System.Windows.Forms" module="System.Windows.Forms" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Forms.Automation" />
+        <type api="T:System.Windows.Forms.Automation.AutomationNotificationProcessing" ref="false" />
+      </containers>
+      <file name="098d8a65-8d6a-dfc4-1a71-674428ae5076" />
+    </api>
+    <api id="F:System.Windows.Forms.Automation.AutomationNotificationProcessing.ImportantAll">
+      <topicdata group="api" notopic="" />
+      <apidata name="ImportantAll" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.Automation.AutomationNotificationProcessing" ref="false" />
+      </returns>
+      <value>0</value>
+      <containers>
+        <library assembly="System.Windows.Forms" module="System.Windows.Forms" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Forms.Automation" />
+        <type api="T:System.Windows.Forms.Automation.AutomationNotificationProcessing" ref="false" />
+      </containers>
+      <file name="53d58532-81e7-9470-7ce3-69eece5b6e2c" />
+    </api>
+    <api id="F:System.Windows.Forms.Automation.AutomationNotificationProcessing.ImportantMostRecent">
+      <topicdata group="api" notopic="" />
+      <apidata name="ImportantMostRecent" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.Automation.AutomationNotificationProcessing" ref="false" />
+      </returns>
+      <value>1</value>
+      <containers>
+        <library assembly="System.Windows.Forms" module="System.Windows.Forms" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Forms.Automation" />
+        <type api="T:System.Windows.Forms.Automation.AutomationNotificationProcessing" ref="false" />
+      </containers>
+      <file name="cf56c419-9226-9c39-3001-f89356fd9afc" />
+    </api>
+    <api id="F:System.Windows.Forms.Automation.AutomationNotificationProcessing.MostRecent">
+      <topicdata group="api" notopic="" />
+      <apidata name="MostRecent" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Forms.Automation.AutomationNotificationProcessing" ref="false" />
+      </returns>
+      <value>3</value>
+      <containers>
+        <library assembly="System.Windows.Forms" module="System.Windows.Forms" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Forms.Automation" />
+        <type api="T:System.Windows.Forms.Automation.AutomationNotificationProcessing" ref="false" />
+      </containers>
+      <file name="2aaa4623-5262-3714-0752-948544c061f6" />
+    </api>
+    <api id="T:System.Windows.Forms.Automation.IAutomationLiveRegion">
+      <topicdata group="api" />
+      <apidata name="IAutomationLiveRegion" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <implementors>
+        <type api="T:System.Windows.Forms.Label" ref="true" />
+        <type api="T:System.Windows.Forms.ToolStripStatusLabel" ref="true" />
+      </implementors>
+      <elements>
+        <element api="P:System.Windows.Forms.Automation.IAutomationLiveRegion.LiveSetting" />
+      </elements>
+      <containers>
+        <library assembly="System.Windows.Forms" module="System.Windows.Forms" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Forms.Automation" />
+      </containers>
+      <file name="e0cf0950-eb0d-49c4-289e-561a32b5aa0a" />
+    </api>
+    <api id="Properties.T:System.Windows.Forms.Automation.IAutomationLiveRegion">
+      <topicdata name="IAutomationLiveRegion" group="list" subgroup="Properties" typeTopicId="T:System.Windows.Forms.Automation.IAutomationLiveRegion" />
+      <apidata name="IAutomationLiveRegion" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="P:System.Windows.Forms.Automation.IAutomationLiveRegion.LiveSetting" />
+      </elements>
+      <containers>
+        <library assembly="System.Windows.Forms" module="System.Windows.Forms" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Forms.Automation" />
+        <type api="T:System.Windows.Forms.Automation.IAutomationLiveRegion" />
+      </containers>
+      <file name="e97dbcfc-5e7f-c659-17e5-46c5deb36c76" />
+    </api>
+    <api id="P:System.Windows.Forms.Automation.IAutomationLiveRegion.LiveSetting">
+      <topicdata group="api" />
+      <apidata name="LiveSetting" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_LiveSetting" />
+      <setter name="set_LiveSetting" />
+      <returns>
+        <type api="T:System.Windows.Forms.Automation.AutomationLiveSetting" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.Windows.Forms" module="System.Windows.Forms" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Forms.Automation" />
+        <type api="T:System.Windows.Forms.Automation.IAutomationLiveRegion" ref="true" />
+      </containers>
+      <file name="a38d7b11-b68f-4a15-c703-c5442dbe8ceb" />
+    </api>
+  </apis>
+</reflection>

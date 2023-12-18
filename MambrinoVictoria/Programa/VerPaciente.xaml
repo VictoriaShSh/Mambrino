@@ -1,0 +1,208 @@
+﻿<Window x:Class="MambrinoVictoria.Programa.VerPaciente"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MambrinoVictoria.Programa"
+        mc:Ignorable="d"
+        Height="820" Width="1240">
+
+    <Window.Resources>
+        <ResourceDictionary Source="/HojaEstilos/Estilos.xaml"/>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="30*"/>
+            <RowDefinition Height="30*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="30*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="30*"/>
+            <RowDefinition Height="30*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="60*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="210"/>
+            <ColumnDefinition Width="240"/>
+            <ColumnDefinition Width="220"/>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="140"/>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="10"/>
+        </Grid.ColumnDefinitions>
+
+        <Rectangle Grid.Row="0" Grid.Column="1" Fill="#FF051B5C" Grid.ColumnSpan="6"/>
+
+        <Rectangle Grid.Row="1" Grid.Column="1" Fill="#FFCADBF3" Grid.ColumnSpan="6" Grid.RowSpan="5"/>
+        <Rectangle Grid.Row="7" Grid.Column="1" Fill="#FFCADBF3" Grid.ColumnSpan="6" Grid.RowSpan="2"/>
+        <Rectangle Grid.Row="10" Grid.Column="1" Fill="#FFCADBF3" Grid.ColumnSpan="6" Grid.RowSpan="4"/>
+        <Rectangle Grid.Row="15" Grid.Column="1" Fill="#FFCADBF3" Grid.ColumnSpan="6" Grid.RowSpan="2"/>
+
+        <Rectangle Grid.Row="6" Grid.Column="1" Fill="#FF68B6E9" Grid.ColumnSpan="6"/>
+        <Rectangle Grid.Row="9" Grid.Column="1" Fill="#FF68B6E9" Grid.ColumnSpan="6"/>
+        <Rectangle Grid.Row="14" Grid.Column="1" Fill="#FF68B6E9" Grid.ColumnSpan="6"/>
+
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="6"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="6"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="1" Grid.Row="3" Grid.ColumnSpan="6"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="1" Grid.Row="4" Grid.ColumnSpan="6"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="1" Grid.Row="5" Grid.ColumnSpan="6"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="1" Grid.Row="6" Grid.ColumnSpan="6"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="1" Grid.Row="7" Grid.ColumnSpan="6"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="1" Grid.Row="8" Grid.ColumnSpan="6"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="1" Grid.Row="9" Grid.ColumnSpan="6"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="1" Grid.Row="10" Grid.ColumnSpan="6"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="1" Grid.Row="11" Grid.ColumnSpan="6"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="1" Grid.Row="12" Grid.ColumnSpan="6"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="1" Grid.Row="13" Grid.ColumnSpan="6"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="1" Grid.Row="14" Grid.ColumnSpan="6"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="1" Grid.Row="15" Grid.ColumnSpan="6"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="1" Grid.Row="16" Grid.ColumnSpan="6"/>
+
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="1" Grid.Row="1" Grid.RowSpan="5"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="2" Grid.Row="1" Grid.RowSpan="5"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="3" Grid.Row="1" Grid.RowSpan="4"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="4" Grid.Row="1" Grid.RowSpan="4"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="3" Grid.Row="5" Grid.ColumnSpan="2"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="5" Grid.Row="1" Grid.RowSpan="5"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="6" Grid.Row="1" Grid.RowSpan="5"/>
+
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="1" Grid.Row="7" Grid.RowSpan="2"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="2" Grid.Row="7"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="3" Grid.Row="7"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="4" Grid.Row="7"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="5" Grid.Row="7"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="6" Grid.Row="7" Grid.RowSpan="2"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="2" Grid.Row="8" Grid.ColumnSpan="4"/>
+
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="1" Grid.Row="10" Grid.RowSpan="4"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="2" Grid.Row="10" Grid.RowSpan="4" Grid.ColumnSpan="2"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="4" Grid.Row="10" Grid.RowSpan="4"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="5" Grid.Row="10" Grid.RowSpan="4" Grid.ColumnSpan="2"/>
+
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="1" Grid.Row="15" Grid.RowSpan="2"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="2" Grid.Row="15" Grid.RowSpan="2"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="3" Grid.Row="15" Grid.ColumnSpan="4"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="3" Grid.Row="16"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="4" Grid.Row="16"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="5" Grid.Row="16"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="6" Grid.Row="16"/>
+
+
+        <Label Content="Información Paciente" FontSize="36" Foreground="White" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" FontWeight="Bold"/>
+
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="nhc" Grid.Column="2" Grid.Row="1" IsEnabled="False"/>
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="nif" Grid.Column="4" Grid.Row="1" IsEnabled="False"/>
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="sexo" Grid.Column="6" Grid.Row="1" IsEnabled="False"/>
+
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="nombre" Grid.Column="2" Grid.Row="2" IsEnabled="False"/>
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="apellido1" Grid.Column="4" Grid.Row="2" IsEnabled="False"/>
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="apellido2" Grid.Column="6" Grid.Row="2" IsEnabled="False"/>
+
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="estadoCivil" Grid.Column="2" Grid.Row="3"/>
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="fechaNacimiento" Text="00/00/0000" Grid.Column="4" Grid.Row="3" IsEnabled="False"/>
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="estudios" Grid.Column="6" Grid.Row="3"/>
+
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="telefono1" Grid.Column="2" Grid.Row="4"/>
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="telefono2" Grid.Column="4" Grid.Row="4"/>
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="movil" Grid.Column="6" Grid.Row="4"/>
+
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="nacionalidad" Grid.Row="5" Grid.Column="2" IsEnabled="False"/>
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="fallecido" Grid.Row="5" Grid.Column="6"/>
+
+        <Image Source="/Resources/flecha2.png" HorizontalAlignment="Left" VerticalAlignment="Center" Height="16" Width="22" Margin="5,0,0,0" Grid.Row="6" Grid.Column="1"/>
+        <Label Content="Domicilio" FontSize="12" Foreground="White" Grid.Row="6" Grid.Column="1" FontWeight="Bold" Margin="30,5,3,44" Grid.RowSpan="2"/>
+
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="cAutonoma" Grid.Column="2" Grid.Row="7"/>
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="provincia" Grid.Column="4" Grid.Row="7"/>
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="poblacion" Grid.Column="6" Grid.Row="7"/>
+
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="direccion" Grid.Column="2" Grid.Row="8" Grid.ColumnSpan="4"/>
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="cp" Grid.Column="6" Grid.Row="8" Margin="90,3,5,3"/>
+
+        <Image Source="/Resources/flecha2.png" HorizontalAlignment="Left" VerticalAlignment="Center" Height="16" Width="22" Margin="5,0,0,0" Grid.Row="9" Grid.Column="1"/>
+        <Label Content="Datos Atención Primaria" FontSize="12" Foreground="White" Grid.Row="9" Grid.Column="1" FontWeight="Bold" Margin="30,2,0,2"/>
+
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="numeross" Grid.Column="2" Grid.Row="10" Grid.ColumnSpan="2" IsEnabled="False"/>
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="esTitularNombre" Grid.Column="5" Grid.Row="10" Grid.ColumnSpan="2" IsEnabled="False"/>
+
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="regimen" Grid.Column="2" Grid.Row="11" Grid.ColumnSpan="2" IsEnabled="False"/>
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="tis" Grid.Column="5" Grid.Row="11" Grid.ColumnSpan="2" IsEnabled="False"/>
+
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="medicoPrimaria" Grid.Column="2" Grid.Row="12" Grid.ColumnSpan="2" IsEnabled="False"/>
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="cap" Grid.Column="5" Grid.Row="12" Grid.ColumnSpan="2" IsEnabled="False"/>
+
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="zonaBasicaSalud" Grid.Column="2" Grid.Row="13" Grid.ColumnSpan="2" IsEnabled="False"/>
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="areaSalud" Grid.Column="5" Grid.Row="13" Grid.ColumnSpan="2" IsEnabled="False"/>
+
+        <Image Source="/Resources/flecha2.png" HorizontalAlignment="Left" VerticalAlignment="Center" Height="16" Width="22" Margin="5,3,5,3" Grid.Row="14" Grid.Column="1"/>
+        <Label Content="Nacimiento" FontSize="12" Foreground="White" Grid.Row="14" Grid.Column="1" FontWeight="Bold" Margin="30,2,0,2"/>
+
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="nacionalidadNac" Grid.Row="15" Grid.Column="2" IsEnabled="False"/>
+
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="cAutonomaNac" Grid.Column="2" Grid.Row="16" IsEnabled="False"/>
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="provinciaNac" Grid.Column="4" Grid.Row="16" IsEnabled="False"/>
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="poblacionNac" Grid.Column="6" Grid.Row="16" IsEnabled="False"/>
+
+        <Label Style="{DynamicResource TextoAzul}" Content="NHC" Grid.Row="1" Grid.Column="1"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="NIF" Grid.Row="1" Grid.Column="3"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="Sexo" Grid.Row="1" Grid.Column="5"/>
+
+        <Label Style="{DynamicResource TextoAzul}" Content="Nombre" Grid.Row="2" Grid.Column="1"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="Apellido 1" Grid.Row="2" Grid.Column="3"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="Apellido 2" Grid.Row="2" Grid.Column="5"/>
+
+        <Label Style="{DynamicResource TextoAzul}" Content="Estado Civil" Grid.Row="3" Grid.Column="1"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="Fecha de nacimiento" Grid.Row="3" Grid.Column="3"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="Estudios" Grid.Row="3" Grid.Column="5"/>
+
+        <Label Style="{DynamicResource TextoAzul}" Content="Teléfono 1" Grid.Row="4" Grid.Column="1"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="Teléfono 2" Grid.Row="4" Grid.Column="3"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="Móvil" Grid.Row="4" Grid.Column="5"/>
+
+        <Label Style="{DynamicResource TextoAzul}" Content="Nacionalidad" Grid.Row="5" Grid.Column="1"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="Fallecido" Grid.Row="5" Grid.Column="5"/>
+
+        <Label Style="{DynamicResource TextoAzul}" Content="C.Autónoma" Grid.Row="7" Grid.Column="1"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="Provincia" Grid.Row="7" Grid.Column="3"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="Poblacion" Grid.Row="7" Grid.Column="5"/>
+
+        <Label Style="{DynamicResource TextoAzul}" Content="Dirección" Grid.Row="8" Grid.Column="1"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="C.P." Grid.Row="8" Grid.Column="6"/>
+
+        <Label Style="{DynamicResource TextoAzul}" Content="Número SS" Grid.Row="10" Grid.Column="1"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="Es titular / nombre" Grid.Row="10" Grid.Column="4"/>
+
+        <Label Style="{DynamicResource TextoAzul}" Content="Régimen" Grid.Row="11" Grid.Column="1"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="TIS" Grid.Row="11" Grid.Column="4"/>
+
+        <Label Style="{DynamicResource TextoAzul}" Content="Médico Primaria" Grid.Row="12" Grid.Column="1"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="C.A.P" Grid.Row="12" Grid.Column="4"/>
+
+        <Label Style="{DynamicResource TextoAzul}" Content="Zona Básica Salud" Grid.Row="13" Grid.Column="1"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="Área Salud" Grid.Row="13" Grid.Column="4"/>
+
+        <Label Style="{DynamicResource TextoAzul}" Content="Nacimiento" Grid.Row="15" Grid.Column="1"/>
+
+        <Label Style="{DynamicResource TextoAzul}" Content="C.Autónoma" Grid.Row="16" Grid.Column="1"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="Provincia" Grid.Row="16" Grid.Column="3"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="Poblacion" Grid.Row="16" Grid.Column="5"/>
+
+        <Button Style="{DynamicResource BotonSimple}" x:Name="modificar" Grid.Column="6" Grid.Row="17" Content="Modificar" HorizontalAlignment="Left" Click="modificar_Click"/>
+        <Button Style="{DynamicResource BotonSimple}" x:Name="aceptar" Grid.Column="6" Grid.Row="17" Content="Aceptar" HorizontalAlignment="Right" Click="aceptar_Click"/>
+        
+    </Grid>
+</Window>

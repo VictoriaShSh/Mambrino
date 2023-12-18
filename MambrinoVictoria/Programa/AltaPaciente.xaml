@@ -1,0 +1,64 @@
+﻿<Window x:Class="MambrinoVictoria.Programa.AltaPaciente"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MambrinoVictoria.Programa"
+        mc:Ignorable="d"
+        Height="320" Width="830">
+
+    <Window.Resources>
+        <ResourceDictionary Source="/HojaEstilos/Estilos.xaml"/>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70*"/>
+            <RowDefinition Height="60*"/>
+            <RowDefinition Height="60*"/>
+            <RowDefinition Height="60*"/>
+            <RowDefinition Height="70*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="5"/>
+            <ColumnDefinition Width="145"/>
+            <ColumnDefinition Width="260"/>
+            <ColumnDefinition Width="145"/>
+            <ColumnDefinition Width="260"/>
+            <ColumnDefinition Width="5"/>
+        </Grid.ColumnDefinitions>
+
+        <Rectangle Grid.Row="0" Grid.Column="1" Fill="#FF051B5C" Grid.ColumnSpan="4"/>
+        <Rectangle Grid.Row="1" Grid.Column="1" Fill="#FFCADBF3" Grid.ColumnSpan="4" Grid.RowSpan="3"/>
+
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="4"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="4"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="4"/>
+        <Border BorderBrush="White" BorderThickness="2" Grid.Column="1" Grid.Row="3" Grid.ColumnSpan="4"/>
+
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="cama" Grid.Column="2" Grid.Row="1" IsEnabled="False" Margin="5,3,150,3"/>
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="nhc" Grid.Column="4" Grid.Row="1" IsEnabled="False"/>
+
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="fecha" Grid.Column="2" Grid.Row="3" IsEnabled="False"/>
+        <TextBox Style="{DynamicResource CuadroTextoAlta}" x:Name="hora" Grid.Column="4" Grid.Row="3" Margin="5,3,150,3" IsEnabled="False"/>
+
+        <ComboBox Style="{DynamicResource ComboBoxStyle1}" x:Name="motivo" Grid.Column="2" Grid.Row="2" SelectedIndex="0"/>
+        <ComboBox Style="{DynamicResource ComboBoxStyle1}" x:Name="tipo" Grid.Column="4" Grid.Row="2" SelectedIndex="0"/>
+
+        <Label Content="Alta Paciente" FontSize="36" Foreground="White" Grid.Column="1" Grid.Row="0" FontWeight="Bold" Grid.ColumnSpan="2"/>
+
+        <Label Style="{DynamicResource TextoAzul}" Content="Cama" Height="35" Grid.Row="1" Grid.Column="1" Margin="35,0,0,0" Width="63"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="NHC" Height="35" Grid.Row="1" Grid.Column="3" Margin="35,0,0,0" Width="63"/>
+
+        <Label Style="{DynamicResource TextoAzul}" Content="Motivio" Height="35" Grid.Row="2" Grid.Column="1" Margin="35,0,0,0" Width="63"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="Tipo" Height="35" Grid.Row="2" Grid.Column="3" Margin="35,0,0,0" Width="63"/>
+
+        <Label Style="{DynamicResource TextoAzul}" Content="Fecha" Height="35" Grid.Row="3" Grid.Column="1" Margin="35,0,0,0" Width="52"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="Hora" Height="35" Grid.Row="3" Grid.Column="3" Margin="35,0,0,0" Width="41"/>
+        <Label Style="{DynamicResource TextoAzul}" Content="hh:mm" Height="35" Grid.Row="3" Grid.Column="4" Margin="113,0,0,0" Width="60"/>
+
+        <Button Style="{DynamicResource BotonSimple}" x:Name="aceptar" Grid.Column="4" Grid.Row="4" Content="Aceptar" Height="30" Width="93" Margin="157,0,0,0" Click="aceptar_Click"/>
+
+    </Grid>
+</Window>

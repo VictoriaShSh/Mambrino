@@ -1,0 +1,7 @@
+16/12/2023 20:45:51: CONEXION - Conexion establecida
+16/12/2023 20:45:56: INICIO SESION  - El usuario: admin ha iniciado sesion
+16/12/2023 20:46:16: INICIO SESION  - El usuario: Vicky ha iniciado sesion
+16/12/2023 22:12:46: CONEXION - Conexion establecida
+16/12/2023 22:12:54: INICIO SESION  - El usuario: admin ha iniciado sesion
+16/12/2023 22:14:22: CONEXION - Conexion establecida
+16/12/2023 22:14:28: INICIO SESION  - El usuario: admin ha iniciado sesion

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ReflectionDataSet Platform=".NETStandard" Version="2.0" Title="Cross-platform (.NET Core/.NET Standard)">
+  <Notes>DEPRECATED: Use the .NET Core/.NET Standard/.NET 5.0+ reflection data set instead.</Notes>
+  <AssemblyLocations />
+  <IgnoredNamespaces />
+  <IgnoredUnresolved />
+  <BindingRedirections />
+</ReflectionDataSet>
