@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\MambrinoVictoria\obj\Debug\
+C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\MambrinoVictoria\obj\Debug\
 MambrinoVictoria
 none
 false
 DEBUG;TRACE
-C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\MambrinoVictoria\App.xaml
+C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\MambrinoVictoria\App.xaml
 22-577855503
 231222328292
 26-2043458508
-722051218088
+72-77817000
 HojaEstilos\Estilos.xaml;MainWindow.xaml;Programa\Acceso.xaml;Programa\AltaPaciente.xaml;Programa\AuxPacientes.xaml;Programa\BusquedaPaciente.xaml;Programa\CrearPaciente.xaml;Programa\EliminarUsuario.xaml;Programa\GestionAlertas.xaml;Programa\HojaPrescripcion.xaml;Programa\Hospitalizacion.xaml;Programa\Informe.xaml;Programa\Inicio.xaml;Programa\ModificarAdmin.xaml;Programa\NotasEnfermeria.xaml;Programa\Patologia.xaml;Programa\Principal.xaml;Programa\RegistroUs.xaml;Programa\VerPaciente.xaml;UserCon\UserControl1.xaml;UserCon\UserControl2.xaml;UserCon\UserControl3.xaml;
 
 False

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2023.7.8.0" projectFile="C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Documentacion.shfbproj" started="16/12/2023 22:32:43">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2023.7.8.0" projectFile="C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Documentacion.shfbproj" started="18/12/2023 22:46:40">
 <buildStep step="Initializing">
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
 Locating components in the following folder(s):
-    C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion
+    C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion
     C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins
     C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components
 Using framework reflection data for &#39;.NET Framework 4.7.2&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
@@ -17,17 +17,17 @@ Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
 </buildStep>
 <buildStep step="ValidatingDocumentationSources">
 Validating and copying documentation source information
-Source: C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\MambrinoVictoria\bin\Debug\MambrinoVictoria.xml
-Source: C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\MambrinoVictoria\bin\Debug\MambrinoVictoria.exe
-    Found assembly &#39;C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\MambrinoVictoria\bin\Debug\MambrinoVictoria.exe&#39;
+Source: C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\MambrinoVictoria\bin\Debug\MambrinoVictoria.xml
+Source: C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\MambrinoVictoria\bin\Debug\MambrinoVictoria.exe
+    Found assembly &#39;C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\MambrinoVictoria\bin\Debug\MambrinoVictoria.exe&#39;
 
 Copying XML comments files
-    C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\MambrinoVictoria\bin\Debug\MambrinoVictoria.xml -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\MambrinoVictoria.xml
+    C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\MambrinoVictoria\bin\Debug\MambrinoVictoria.xml -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\MambrinoVictoria.xml
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (es-ES, Espa&#241;ol (Espa&#241;a))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00,0009
+</plugIn>    Last step completed in 00:00:00,0020
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
@@ -35,10 +35,10 @@ Generating API filter for MRefBuilder...
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
-[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-a88e2c7f-bda9-45c0-94da-0f8002f912d9.proj]
-Compilaci&#162;n iniciada a las 16/12/2023 22:32:44.
+[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-377391b0-eb80-488e-85fb-cad41cdfa10f.proj]
+Compilaci&#162;n iniciada a las 18/12/2023 22:46:41.
 
-Proyecto &quot;C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\GenerateRefInfo-a88e2c7f-bda9-45c0-94da-0f8002f912d9.proj&quot; en nodo 1 (destinos predeterminados).
+Proyecto &quot;C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\GenerateRefInfo-377391b0-eb80-488e-85fb-cad41cdfa10f.proj&quot; en nodo 1 (destinos predeterminados).
 PrepareForBuild:
   Creando directorio &quot;obj\Debug\&quot;.
 GenerateRefInfo:
@@ -49,24 +49,24 @@ GenerateRefInfo:
   Wrote information on 5 namespaces, 26 types, and 475 members
   Merging duplicate type and member information
   Merged 0 duplicate type(s) and 0 duplicate member(s)
-Compilaci&#162;n del proyecto terminada &quot;C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\GenerateRefInfo-a88e2c7f-bda9-45c0-94da-0f8002f912d9.proj&quot; (destinos predeterminados).
-    Last step completed in 00:00:01,1825
+Compilaci&#162;n del proyecto terminada &quot;C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\GenerateRefInfo-377391b0-eb80-488e-85fb-cad41cdfa10f.proj&quot; (destinos predeterminados).
+    Last step completed in 00:00:01,1472
 </buildStep>
 <buildStep step="ApplyDocumentModel">
 Applying document model to reflection output...
-    Last step completed in 00:00:00,5524
+    Last step completed in 00:00:00,5831
 </buildStep>
 <buildStep step="AddApiTopicFilenames">
 Adding topic filenames to API members...
-    Last step completed in 00:00:00,2191
+    Last step completed in 00:00:00,2336
 </buildStep>
 <buildStep step="GenerateApiTopicManifest">
 Generating API topic manifest...
-    Last step completed in 00:00:00,2306
+    Last step completed in 00:00:00,1942
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00,1592
+    Last step completed in 00:00:00,1487
 </buildStep>
 <buildStep step="CopyConceptualContent">
 Copying conceptual content...
@@ -74,25 +74,25 @@ Checking for token files...
 Checking for code snippets files...
 Copying images and creating the media map file...
 Generating conceptual topic files
-    Parsing topic file &#39;C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Content\Welcome.aml&#39;
-    C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Content\Welcome.aml -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\ddueXml\9e181fb5-a846-4408-9684-fba4a4d94428.xml
-    Parsing topic file &#39;C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Content\VersionHistory\VersionHistory.aml&#39;
-    C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Content\VersionHistory\VersionHistory.aml -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\ddueXml\1c59a81a-4fc9-4cd2-8141-21d41d07ccdb.xml
-    Parsing topic file &#39;C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Content\VersionHistory\v1.0.0.0.aml&#39;
-    C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Content\VersionHistory\v1.0.0.0.aml -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\ddueXml\f03bc1dd-65cf-4dbf-ac99-90f7d394d55e.xml
-    Last step completed in 00:00:00,0209
+    Parsing topic file &#39;C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Content\Welcome.aml&#39;
+    C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Content\Welcome.aml -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\ddueXml\9e181fb5-a846-4408-9684-fba4a4d94428.xml
+    Parsing topic file &#39;C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Content\VersionHistory\VersionHistory.aml&#39;
+    C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Content\VersionHistory\VersionHistory.aml -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\ddueXml\1c59a81a-4fc9-4cd2-8141-21d41d07ccdb.xml
+    Parsing topic file &#39;C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Content\VersionHistory\v1.0.0.0.aml&#39;
+    C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Content\VersionHistory\v1.0.0.0.aml -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\ddueXml\f03bc1dd-65cf-4dbf-ac99-90f7d394d55e.xml
+    Last step completed in 00:00:00,0205
 </buildStep>
 <buildStep step="CreateConceptualTopicConfigs">
 Creating conceptual topic configuration files...
     Companion files
     _ContentMetadata_.xml
     Merging topic IDs into reference topic manifest file
-    Last step completed in 00:00:00,0055
+    Last step completed in 00:00:00,0065
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
-C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\icons\Help.png -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\Help.png
-    Last step completed in 00:00:00,0041
+C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\icons\Help.png -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\Help.png
+    Last step completed in 00:00:00,0044
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
@@ -101,23 +101,23 @@ Merging conceptual and additional tables of contents...
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file for API content...
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00,2677
+    Last step completed in 00:00:00,2633
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
-    Last step completed in 00:00:00,2848
+    Last step completed in 00:00:00,2863
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00,0023
+    Last step completed in 00:00:00,0035
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
-C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\BuildAssembler.config
+C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\BuildAssembler.config
   Updating reference topic configurations.
   Updating conceptual topic configurations.
     Removing unused ExampleComponent.
-    Last step completed in 00:00:00,0056
+    Last step completed in 00:00:00,0043
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
@@ -171,7 +171,7 @@ SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.
 SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.AgregarUsuario(System.String,System.String,System.String,System.Int32,System.String,System.Int32)] Missing &lt;param name=&quot;nombre&quot;/&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.AgregarUsuario(System.String,System.String,System.String,System.Int32,System.String,System.Int32)] Missing &lt;param name=&quot;apellidos&quot;/&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.AgregarUsuario(System.String,System.String,System.String,System.Int32,System.String,System.Int32)] Missing &lt;param name=&quot;email&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.AgregarUsuario(System.String,System.String,System.String,System.Int32,System.String,System.Int32)] Missing &lt;param name=&quot;ir_rol&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.AgregarUsuario(System.String,System.String,System.String,System.Int32,System.String,System.Int32)] Missing &lt;param name=&quot;id_rol&quot;/&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.AgregarUsuario(System.String,System.String,System.String,System.Int32,System.String,System.Int32)] Missing &lt;param name=&quot;contrase&#241;a&quot;/&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.AgregarUsuario(System.String,System.String,System.String,System.Int32,System.String,System.Int32)] Missing &lt;param name=&quot;id_centro&quot;/&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.BloquearCama(System.Int32,System.Boolean)] Missing &lt;param name=&quot;idCama&quot;/&gt; documentation
@@ -198,6 +198,7 @@ SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.
 SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.DarAltaPaciente(System.Int32,System.DateTime,System.TimeSpan,System.String,System.String,System.Int32)] Missing &lt;param name=&quot;motivo&quot;/&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.DarAltaPaciente(System.Int32,System.DateTime,System.TimeSpan,System.String,System.String,System.Int32)] Missing &lt;param name=&quot;tipo&quot;/&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.DarAltaPaciente(System.Int32,System.DateTime,System.TimeSpan,System.String,System.String,System.Int32)] Missing &lt;param name=&quot;nhc&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.EliminarUsuario(System.String)] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.EliminarUsuario(System.String)] Missing &lt;param name=&quot;nombreCompleto&quot;/&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.EsAdministrador(System.String,System.String)] Missing &lt;returns&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.EsAdministrador(System.String,System.String)] Missing &lt;param name=&quot;usuario&quot;/&gt; documentation
@@ -267,8 +268,8 @@ SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.
 SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerNIFporHNC(System.Int32)] Missing &lt;returns&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerNIFporHNC(System.Int32)] Missing &lt;param name=&quot;nhc&quot;/&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerNombresCentros] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerNombresUsuarios(System.String)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerNombresUsuarios(System.String)] Missing &lt;param name=&quot;perfil&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerNombresUsuarios(System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerNombresUsuarios(System.Int32)] Missing &lt;param name=&quot;id_rol&quot;/&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerNotasEnfermeriaPorPaciente(System.Int32)] Missing &lt;returns&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerNotasEnfermeriaPorPaciente(System.Int32)] Missing &lt;param name=&quot;nhcPaciente&quot;/&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:MambrinoVictoria.BaseDeDatos.BDD.ObtenerPatologiasPorPaciente(System.Int32)] Missing &lt;returns&gt; documentation
@@ -645,88 +646,88 @@ SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.UserCon.UserCont
 SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.UserCon.UserControl3.cancelar] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [F:MambrinoVictoria.UserCon.UserControl3.lista] Missing &lt;summary&gt; documentation
 Processed 599 topic(s)
-520 warning(s)
+521 warning(s)
 CopyFromIndexComponent: &quot;metadata&quot; in-memory cache entries used: 1 of 15.
 ResolveArtLinksComponent: Copying media files...
 CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 7 of 15.
 CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 5 of 30.
-    Last step completed in 00:03:04,0462
+    Last step completed in 00:00:17,8534
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
 Using LCID &#39;3082&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
-Processing Help 1 files in C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1
+Processing Help 1 files in C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1
 Processed 599 HTML files.  Sorting keywords and generating See Also indices.
-Saving HTML Help 1 keyword index to C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\Documentacion.hhk
-Saving HTML Help 1 table of contents to C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\Documentacion.hhc
-    Last step completed in 00:00:00,1404
+Saving HTML Help 1 keyword index to C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\Documentacion.hhk
+Saving HTML Help 1 table of contents to C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\Documentacion.hhc
+    Last step completed in 00:00:00,0663
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\AlertCaution.png -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\AlertCaution.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\AlertNote.png -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\AlertNote.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\AlertSecurity.png -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\AlertSecurity.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\CodeExample.png -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\CodeExample.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\favicon.ico -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\favicon.ico
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privClass.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\privClass.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privDelegate.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\privDelegate.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privEnumeration.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\privEnumeration.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privEvent.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\privEvent.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privExtension.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\privExtension.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privField.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\privField.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privInterface.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\privInterface.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privMethod.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\privMethod.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privProperty.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\privProperty.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privStructure.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\privStructure.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protClass.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\protClass.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protDelegate.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\protDelegate.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protEnumeration.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\protEnumeration.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protEvent.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\protEvent.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protExtension.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\protExtension.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protField.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\protField.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protInterface.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\protInterface.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protMethod.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\protMethod.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protOperator.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\protOperator.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protProperty.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\protProperty.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protStructure.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\protStructure.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubClass.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\pubClass.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubDelegate.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\pubDelegate.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubEnumeration.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\pubEnumeration.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubEvent.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\pubEvent.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubExtension.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\pubExtension.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubField.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\pubField.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubInterface.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\pubInterface.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubMethod.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\pubMethod.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubOperator.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\pubOperator.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubProperty.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\pubProperty.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubStructure.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\pubStructure.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\SectionCollapsed.png -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\SectionCollapsed.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\SectionExpanded.png -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\SectionExpanded.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\Static.gif -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\Static.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\scripts\branding.js -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\scripts\branding.js
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-cs-CZ.css -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-cs-CZ.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-de-DE.css -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-de-DE.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-en-US.css -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-en-US.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-es-ES.css -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-es-ES.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-fr-FR.css -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-fr-FR.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-Help1.css -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-Help1.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-HelpViewer.css -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-HelpViewer.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-it-IT.css -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-it-IT.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-ja-JP.css -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-ja-JP.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-ko-KR.css -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-ko-KR.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-pl-PL.css -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-pl-PL.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-pt-BR.css -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-pt-BR.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-ru-RU.css -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-ru-RU.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-tr-TR.css -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-tr-TR.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-Website.css -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-Website.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-zh-CN.css -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-zh-CN.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-zh-TW.css -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-zh-TW.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding.css -&gt; C:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding.css
-    Last step completed in 00:00:00,2275
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\AlertCaution.png -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\AlertNote.png -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\AlertSecurity.png -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\CodeExample.png -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\favicon.ico -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privClass.gif -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\privClass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privDelegate.gif -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\privDelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privEnumeration.gif -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\privEnumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privEvent.gif -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\privEvent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privExtension.gif -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\privExtension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privField.gif -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\privField.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privInterface.gif -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\privInterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privMethod.gif -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\privMethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privProperty.gif -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\privProperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privStructure.gif -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\privStructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protClass.gif -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\protClass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protDelegate.gif -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\protDelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protEnumeration.gif -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\protEnumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protEvent.gif -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\protEvent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protExtension.gif -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\protExtension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protField.gif -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\protField.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protInterface.gif -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\protInterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protMethod.gif -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\protMethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protOperator.gif -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\protOperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protProperty.gif -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\protProperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protStructure.gif -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\protStructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubClass.gif -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\pubClass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubDelegate.gif -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\pubDelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubEnumeration.gif -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\pubEnumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubEvent.gif -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\pubEvent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubExtension.gif -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\pubExtension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubField.gif -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\pubField.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubInterface.gif -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\pubInterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubMethod.gif -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\pubMethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubOperator.gif -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\pubOperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubProperty.gif -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\pubProperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubStructure.gif -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\pubStructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\SectionCollapsed.png -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\SectionCollapsed.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\SectionExpanded.png -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\SectionExpanded.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\Static.gif -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\Static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\scripts\branding.js -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\scripts\branding.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-cs-CZ.css -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-cs-CZ.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-de-DE.css -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-de-DE.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-en-US.css -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-en-US.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-es-ES.css -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-es-ES.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-fr-FR.css -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-fr-FR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-Help1.css -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-Help1.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-HelpViewer.css -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-HelpViewer.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-it-IT.css -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-it-IT.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-ja-JP.css -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-ko-KR.css -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-pl-PL.css -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-pl-PL.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-pt-BR.css -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-pt-BR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-ru-RU.css -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-ru-RU.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-tr-TR.css -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-tr-TR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-Website.css -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-Website.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-zh-CN.css -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-zh-TW.css -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding.css -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding.css
+    Last step completed in 00:00:00,2049
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00,0049
+    Last step completed in 00:00:00,0040
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
@@ -736,7 +737,7 @@ Compiling HTML Help 1 file...
   
   
   
-  Compiling c:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\Documentacion.chm
+  Compiling c:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\Documentacion.chm
   
   
   
@@ -756,19 +757,19 @@ Compiling HTML Help 1 file...
   
   
   
-  Created c:\Users\victo\Desktop\Proyecto Final App\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\Documentacion.chm, 1,716,685 bytes
+  Created c:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\Documentacion.chm, 1,708,707 bytes
   
-  Compression decreased file by 10,561,935 bytes.
+  Compression decreased file by 10,518,306 bytes.
   
-    Last step completed in 00:00:05,8422
+    Last step completed in 00:00:05,5648
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00,1390
+    Last step completed in 00:00:00,1279
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 16/12/2023 22:35:57.  Total time: 00:03:13,8336
+Build completed successfully at 18/12/2023 22:47:07.  Total time: 00:00:27,1398
 
 </buildStep>
 </shfbBuild>

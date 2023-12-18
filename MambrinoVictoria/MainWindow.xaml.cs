@@ -31,16 +31,6 @@ namespace MambrinoVictoria
         {
             Window window = Window.GetWindow(this);
             window.WindowState = WindowState.Maximized;
-            /*
-                        Usuario.Text = "Hervas";
-                        Puerto.Text = "3306";
-                        Servidor.Text = "10.123.36.10";
-                        Contraseña.Password = "mambrino";
-            */
-            Usuario.Text = "root";
-            Puerto.Text = "3306";
-            Servidor.Text = "localhost";
-            Contraseña.Password = "1234";
         }
 
         /// <summary>
