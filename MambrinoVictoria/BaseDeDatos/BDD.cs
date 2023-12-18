@@ -65,7 +65,7 @@ namespace MambrinoVictoria.BaseDeDatos
                     conexion = new MySqlConnection(conn);
                     conexion.Open();
 
-                    // Registro de evento de conexión en el archivo utilizando hilo
+                    // Registra cuando se conecta a la base de datos
                     RegistrarEventoEnHilo("CONEXION", "Conexion establecida");
 
                     string seleccionarBD = "USE mambrino;";
@@ -88,14 +88,12 @@ namespace MambrinoVictoria.BaseDeDatos
 
         private void RegistrarEventoEnHilo(string tipo, string descripcion)
         {
-            // Crear un hilo que actuara en segundo plano
             Thread hilo = new Thread(() =>
             {
-                lock (bloqueo) // Asegura el acceso desde varios hilos
+                lock (bloqueo)
                 {
                     try
                     {
-                        // Añade un registro en el archivo para registrar el evento
                         string registro = $"{DateTime.Now}: {tipo} - {descripcion}";
                         File.AppendAllText(ruta, registro + Environment.NewLine);
                     }
@@ -209,7 +207,6 @@ namespace MambrinoVictoria.BaseDeDatos
             }
             catch (MySqlException ex)
             {
-                // En caso de error, realiza un rollback para deshacer los cambios puesto que se perderia el usuario administrador
                 if (transaction != null)
                 {
                     transaction.Rollback();
@@ -305,7 +302,7 @@ namespace MambrinoVictoria.BaseDeDatos
 
                     if (rowCount > 0)
                     {
-                        // Registro cuando un suario inica sesion
+                        // Registra cuando un suario inica sesion
                         RegistrarEventoEnHilo("INICIO SESION ", "El usuario: " + email + " ha iniciado sesion");
                         return true;
                     }
@@ -580,16 +577,11 @@ namespace MambrinoVictoria.BaseDeDatos
         {
             try
             {
-                // Divide el nombre completo en nombre y apellidos
                 string[] partesNombre = nombreCompleto.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
 
-                // El primer elemento es el nombre
                 string nombre = partesNombre[0];
-
-                // Los elementos restantes son los apellidos
                 string apellidos = partesNombre.Length > 1 ? string.Join(" ", partesNombre.Skip(1)) : "";
 
-                // Realiza la eliminación del usuario
                 string eliminarUsuarioQuery = "DELETE FROM usuarios WHERE nombre = @nombre AND apellidos = @apellidos";
 
                 using (MySqlCommand cmdEliminarUsuario = new MySqlCommand(eliminarUsuarioQuery, conexion))

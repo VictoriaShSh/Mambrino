@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2023.7.8.0" projectFile="C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Documentacion.shfbproj" started="18/12/2023 22:46:40">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2023.7.8.0" projectFile="C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Documentacion.shfbproj" started="18/12/2023 23:03:51">
 <buildStep step="Initializing">
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
 Locating components in the following folder(s):
@@ -27,7 +27,7 @@ Copying XML comments files
 <buildStep step="GenerateSharedContent">
 Generating shared content files (es-ES, Espa&#241;ol (Espa&#241;a))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00,0020
+</plugIn>    Last step completed in 00:00:00,0037
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
@@ -35,10 +35,10 @@ Generating API filter for MRefBuilder...
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
-[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-377391b0-eb80-488e-85fb-cad41cdfa10f.proj]
-Compilaci&#162;n iniciada a las 18/12/2023 22:46:41.
+[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-be444b70-4660-4fe3-85b1-d7f99d4cbf8a.proj]
+Compilaci&#162;n iniciada a las 18/12/2023 23:03:52.
 
-Proyecto &quot;C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\GenerateRefInfo-377391b0-eb80-488e-85fb-cad41cdfa10f.proj&quot; en nodo 1 (destinos predeterminados).
+Proyecto &quot;C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\GenerateRefInfo-be444b70-4660-4fe3-85b1-d7f99d4cbf8a.proj&quot; en nodo 1 (destinos predeterminados).
 PrepareForBuild:
   Creando directorio &quot;obj\Debug\&quot;.
 GenerateRefInfo:
@@ -49,24 +49,24 @@ GenerateRefInfo:
   Wrote information on 5 namespaces, 26 types, and 475 members
   Merging duplicate type and member information
   Merged 0 duplicate type(s) and 0 duplicate member(s)
-Compilaci&#162;n del proyecto terminada &quot;C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\GenerateRefInfo-377391b0-eb80-488e-85fb-cad41cdfa10f.proj&quot; (destinos predeterminados).
-    Last step completed in 00:00:01,1472
+Compilaci&#162;n del proyecto terminada &quot;C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\GenerateRefInfo-be444b70-4660-4fe3-85b1-d7f99d4cbf8a.proj&quot; (destinos predeterminados).
+    Last step completed in 00:00:01,0700
 </buildStep>
 <buildStep step="ApplyDocumentModel">
 Applying document model to reflection output...
-    Last step completed in 00:00:00,5831
+    Last step completed in 00:00:00,5935
 </buildStep>
 <buildStep step="AddApiTopicFilenames">
 Adding topic filenames to API members...
-    Last step completed in 00:00:00,2336
+    Last step completed in 00:00:00,2268
 </buildStep>
 <buildStep step="GenerateApiTopicManifest">
 Generating API topic manifest...
-    Last step completed in 00:00:00,1942
+    Last step completed in 00:00:00,2974
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00,1487
+    Last step completed in 00:00:00,3589
 </buildStep>
 <buildStep step="CopyConceptualContent">
 Copying conceptual content...
@@ -80,19 +80,19 @@ Generating conceptual topic files
     C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Content\VersionHistory\VersionHistory.aml -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\ddueXml\1c59a81a-4fc9-4cd2-8141-21d41d07ccdb.xml
     Parsing topic file &#39;C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Content\VersionHistory\v1.0.0.0.aml&#39;
     C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Content\VersionHistory\v1.0.0.0.aml -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\ddueXml\f03bc1dd-65cf-4dbf-ac99-90f7d394d55e.xml
-    Last step completed in 00:00:00,0205
+    Last step completed in 00:00:00,0246
 </buildStep>
 <buildStep step="CreateConceptualTopicConfigs">
 Creating conceptual topic configuration files...
     Companion files
     _ContentMetadata_.xml
     Merging topic IDs into reference topic manifest file
-    Last step completed in 00:00:00,0065
+    Last step completed in 00:00:00,0075
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\icons\Help.png -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\icons\Help.png
-    Last step completed in 00:00:00,0044
+    Last step completed in 00:00:00,0033
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
@@ -101,15 +101,15 @@ Merging conceptual and additional tables of contents...
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file for API content...
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00,2633
+    Last step completed in 00:00:00,2982
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
-    Last step completed in 00:00:00,2863
+    Last step completed in 00:00:00,2349
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00,0035
+    Last step completed in 00:00:00,0031
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
@@ -117,7 +117,7 @@ C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\
   Updating reference topic configurations.
   Updating conceptual topic configurations.
     Removing unused ExampleComponent.
-    Last step completed in 00:00:00,0043
+    Last step completed in 00:00:00,0046
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
@@ -651,7 +651,7 @@ CopyFromIndexComponent: &quot;metadata&quot; in-memory cache entries used: 1 of 
 ResolveArtLinksComponent: Copying media files...
 CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 7 of 15.
 CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 5 of 30.
-    Last step completed in 00:00:17,8534
+    Last step completed in 00:00:18,0024
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -660,7 +660,7 @@ Processing Help 1 files in C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalV
 Processed 599 HTML files.  Sorting keywords and generating See Also indices.
 Saving HTML Help 1 keyword index to C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\Documentacion.hhk
 Saving HTML Help 1 table of contents to C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\Documentacion.hhc
-    Last step completed in 00:00:00,0663
+    Last step completed in 00:00:00,0731
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -723,11 +723,11 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-zh-CN.css -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-zh-CN.css
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-zh-TW.css -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding-zh-TW.css
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding.css -&gt; C:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\styles\branding.css
-    Last step completed in 00:00:00,2049
+    Last step completed in 00:00:00,2098
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00,0040
+    Last step completed in 00:00:00,0044
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
@@ -757,19 +757,19 @@ Compiling HTML Help 1 file...
   
   
   
-  Created c:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\Documentacion.chm, 1,708,707 bytes
+  Created c:\Users\victo\Desktop\Vicky\Proyectos\ProyectoFinalVictoria\Documentacion\Help\Working\Output\HtmlHelp1\Documentacion.chm, 1,709,487 bytes
   
-  Compression decreased file by 10,518,306 bytes.
+  Compression decreased file by 10,518,210 bytes.
   
-    Last step completed in 00:00:05,5648
+    Last step completed in 00:00:05,8961
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00,1279
+    Last step completed in 00:00:00,1369
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 18/12/2023 22:47:07.  Total time: 00:00:27,1398
+Build completed successfully at 18/12/2023 23:04:19.  Total time: 00:00:27,9014
 
 </buildStep>
 </shfbBuild>
