@@ -85,18 +85,13 @@ namespace MambrinoVictoria.Programa
             this.Close();
         }
 
-        /// <summary>
-        /// Manejador del evento Click del boton "Modificar"
-        /// </summary>
-        /// <param name="sender">El objeto que desencadeno el evento</param>
-        /// <param name="e">Los argumentos del evento</param>
         private void modificar_Click(object sender, RoutedEventArgs e)
         {
             if (!string.IsNullOrEmpty(nif.Text))
             {
-                string telefono1 = string.IsNullOrEmpty(this.telefono1.Text) ? null : this.telefono1.Text;
-                string telefono2 = string.IsNullOrEmpty(this.telefono2.Text) ? null : this.telefono2.Text;
-                string movil = string.IsNullOrEmpty(this.movil.Text) ? null : this.movil.Text;
+                int telefono1 = string.IsNullOrEmpty(this.telefono1.Text) ? 0 : int.Parse(this.telefono1.Text);
+                int telefono2 = string.IsNullOrEmpty(this.telefono2.Text) ? 0 : int.Parse(this.telefono2.Text);
+                int movil = string.IsNullOrEmpty(this.movil.Text) ? 0 : int.Parse(this.movil.Text);
                 string estadoCivil = string.IsNullOrEmpty(this.estadoCivil.Text) ? null : this.estadoCivil.Text;
                 string estudios = string.IsNullOrEmpty(this.estudios.Text) ? null : this.estudios.Text;
                 string fallecido = string.IsNullOrEmpty(this.fallecido.Text) ? null : this.fallecido.Text;
@@ -104,11 +99,11 @@ namespace MambrinoVictoria.Programa
                 string provincia = string.IsNullOrEmpty(this.provincia.Text) ? null : this.provincia.Text;
                 string poblacion = string.IsNullOrEmpty(this.poblacion.Text) ? null : this.poblacion.Text;
                 string direccion = string.IsNullOrEmpty(this.direccion.Text) ? null : this.direccion.Text;
-                string codigoPostal = string.IsNullOrEmpty(cp.Text) ? null : cp.Text;
+                int codigoPostal = string.IsNullOrEmpty(cp.Text) ? 0 : int.Parse(cp.Text);
 
                 baseDeDatos.ModificarPaciente(nif.Text, telefono1, telefono2, movil, estadoCivil, estudios, fallecido, cAutonoma, provincia, poblacion, direccion, codigoPostal);
 
-                Console.WriteLine("Modificacion realizada correctamente");
+                MessageBox.Show("Modificación realizada correctamente");
             }
         }
     }

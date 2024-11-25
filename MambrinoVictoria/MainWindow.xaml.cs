@@ -20,61 +20,41 @@ namespace MambrinoVictoria
             InitializeComponent();
 
             baseDeDatos = BDD.InstanciaBDD();
+
+            // Asignar datos de conexión automáticamente
+            baseDeDatos.Usuario = "root";
+            baseDeDatos.Puerto = "3306";
+            baseDeDatos.Servidor = "localhost";
+            baseDeDatos.Contraseña = "1234";
+
+            // Intentar conectar a la base de datos directamente
+            ConectarBaseDeDatos();
         }
 
         /// <summary>
-        /// Maneja el evento de carga de la ventana
+        /// Intenta conectar a la base de datos con los datos predefinidos.
         /// </summary>
-        /// <param name="sender">El objeto que desencadeno el evento</param>
-        /// <param name="e">Los argumentos del evento</param>
-        private void Window_Loaded(object sender, RoutedEventArgs e)
+        private void ConectarBaseDeDatos()
         {
-            Window window = Window.GetWindow(this);
-            window.WindowState = WindowState.Maximized;
-        }
-
-        /// <summary>
-        /// Manejador del evento Click del boton "Conectar"
-        /// </summary>
-        /// <param name="sender">El objeto que desencadeno el evento</param>
-        /// <param name="e">Los argumentos del evento</param>
-        private void Conectar_Click(object sender, RoutedEventArgs e)
-        {
-            string usuario = Usuario.Text;
-            string puerto = Puerto.Text;
-            string servidor = Servidor.Text;
-            string contraseña = Contraseña.Password;
-
             try
             {
-                if (string.IsNullOrWhiteSpace(usuario) || string.IsNullOrWhiteSpace(puerto) || string.IsNullOrWhiteSpace(servidor) || string.IsNullOrWhiteSpace(contraseña))
+                if (baseDeDatos.Conexion())
                 {
-                    MessageBox.Show("Por favor, rellena todos los campos");
-                    return;
+                    Inicio inicio = new Inicio();
+                    inicio.Show();
+
+                    this.Close();
                 }
                 else
                 {
-                    baseDeDatos.Usuario = usuario;
-                    baseDeDatos.Puerto = puerto;
-                    baseDeDatos.Servidor = servidor;
-                    baseDeDatos.Contraseña = contraseña;
-
-                    if (baseDeDatos.Conexion())
-                    {
-                        Inicio inicio = new Inicio();
-                        inicio.Show();
-
-                        this.Close();
-                    }
-                    else
-                    {
-                        MessageBox.Show("Error al establecer conexion");
-                    }
+                    MessageBox.Show("Error al establecer conexión");
+                    Application.Current.Shutdown();
                 }
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Error al crear base de datos: " + ex.Message);
+                Application.Current.Shutdown();
             }
         }
     }

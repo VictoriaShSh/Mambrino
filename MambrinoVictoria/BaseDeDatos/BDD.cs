@@ -461,8 +461,8 @@ namespace MambrinoVictoria.BaseDeDatos
         /// <summary>
         /// Metodo que se utiliza para modificar la informacion de un paciente seleccionado registrado
         /// </summary>
-        public void ModificarPaciente(string nif, string telefono1, string telefono2, string movil, string estadoCivil, string estudios, string fallecido,
-            string cAutonoma, string provincia, string poblacion, string direccion, string cp)
+        public void ModificarPaciente(string nif, int telefono1, int telefono2, int movil, string estadoCivil, string estudios, string fallecido,
+            string cAutonoma, string provincia, string poblacion, string direccion, int cp)
         {
             try
             {
@@ -489,6 +489,7 @@ namespace MambrinoVictoria.BaseDeDatos
                     cmd.Parameters.AddWithValue("@poblacion", poblacion);
                     cmd.Parameters.AddWithValue("@direccion", direccion);
                     cmd.Parameters.AddWithValue("@cp", cp);
+                    cmd.Parameters.AddWithValue("@nif", nif);
 
                     int filasAfectadas = cmd.ExecuteNonQuery();
 

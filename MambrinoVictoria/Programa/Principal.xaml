@@ -135,15 +135,15 @@
             <Image Source="/Resources/altaPaciente.png" ToolTip="Alta Hospitalaria"/>
         </Button>
 
-        <Button x:Name="notas" Grid.Column="1" HorizontalAlignment="Left" Margin="3,0,0,0" Grid.Row="8" VerticalAlignment="Center" Width="56" Height="56" Background="Transparent" ToolTip="Notas de enfermería" Visibility="Collapsed" Click="notas_Click" >
+        <Button x:Name="notas" Grid.Column="1" HorizontalAlignment="Left" Margin="3,0,0,0" Grid.Row="8" VerticalAlignment="Center" Width="56" Height="56" Background="Transparent" ToolTip="Notas de enfermería" Visibility="Visible" Click="notas_Click" >
             <Image Source="/Resources/notas.png" ToolTip="Notas de Enfermeria"/>
         </Button>
 
-        <Button x:Name="prescripcion" Grid.Column="1" HorizontalAlignment="Left" Margin="63,0,0,0" Grid.Row="8" VerticalAlignment="Center" Width="56" Height="56" Background="Transparent" ToolTip="Hoja de prescripción" Visibility="Collapsed" Click="prescripcion_Click" >
+        <Button x:Name="prescripcion" Grid.Column="1" HorizontalAlignment="Left" Margin="63,0,0,0" Grid.Row="8" VerticalAlignment="Center" Width="56" Height="56" Background="Transparent" ToolTip="Hoja de prescripción" Visibility="Visible" Click="prescripcion_Click" >
             <Image Source="/Resources/prescripcion.png" ToolTip="Hoja de prescripción"/>
         </Button>
 
-        <Button x:Name="patologia" Grid.Column="1" HorizontalAlignment="Left" Margin="123,0,0,0" Grid.Row="8" VerticalAlignment="Center" Width="56" Height="56" Background="Transparent" ToolTip="Patología/Alteración/Trastorno" Visibility="Collapsed" Click="patologia_Click" >
+        <Button x:Name="patologia" Grid.Column="1" HorizontalAlignment="Left" Margin="123,0,0,0" Grid.Row="8" VerticalAlignment="Center" Width="56" Height="56" Background="Transparent" ToolTip="Patología/Alteración/Trastorno" Visibility="Visible" Click="patologia_Click" >
             <Image Source="/Resources/patologia.png" ToolTip="Patología/alteración/trastorno"/>
         </Button>
 

@@ -61,7 +61,7 @@
             Metodo que se utiliza para mostrar la informacion del paciente seleccionado
             </summary>
         </member>
-        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.ModificarPaciente(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+        <member name="M:MambrinoVictoria.BaseDeDatos.BDD.ModificarPaciente(System.String,System.Int32,System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32)">
             <summary>
             Metodo que se utiliza para modificar la informacion de un paciente seleccionado registrado
             </summary>
@@ -450,13 +450,6 @@
             <param name="sender">El objeto que desencadeno el evento</param>
             <param name="e">Los argumentos del evento</param>
         </member>
-        <member name="M:MambrinoVictoria.Programa.CrearPaciente.TextBox2_TextChanged(System.Object,System.Windows.Controls.TextChangedEventArgs)">
-            <summary>
-            Maneja el evento de cambio de texto en los TextBox donde se usa
-            </summary>
-            <param name="sender">El objeto que desencadeno el evento</param>
-            <param name="e">Los argumentos del evento</param>
-        </member>
         <member name="M:MambrinoVictoria.Programa.CrearPaciente.titular_Checked(System.Object,System.Windows.RoutedEventArgs)">
             <summary>
             Maneja el evento de check del checkBox titular
@@ -512,6 +505,46 @@
             </summary>
             <param name="sender">El objeto que desencadeno el evento</param>
             <param name="e">Los argumentos del evento</param>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.CrearPaciente.GenerarDniAleatorio">
+            <summary>
+            Genera un DNI aleatorio válido.
+            </summary>
+            <returns>Una cadena que representa el DNI aleatorio generado.</returns>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.CrearPaciente.CalcularLetraDni(System.Int32)">
+            <summary>
+            Calcula la letra del DNI a partir del número dado.
+            </summary>
+            <param name="numero">El número de DNI.</param>
+            <returns>La letra correspondiente al DNI.</returns>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.CrearPaciente.GenerarNssAleatorio">
+            <summary>
+            Genera un número de la Seguridad Social aleatorio válido.
+            </summary>
+            <returns>Una cadena que representa el número de la Seguridad Social aleatorio generado.</returns>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.CrearPaciente.CalcularCodigoControl(System.Int32)">
+            <summary>
+            Calcula el código de control del número de la Seguridad Social.
+            </summary>
+            <param name="numero">El número base de la Seguridad Social.</param>
+            <returns>El código de control correspondiente al número.</returns>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.CrearPaciente.GenerarTIS">
+            <summary>
+            Genera y muestra el TIS si todos los campos están llenos
+            </summary>
+        </member>
+        <member name="M:MambrinoVictoria.Programa.CrearPaciente.GenerarTis(System.String,System.String,System.DateTime)">
+            <summary>
+            Genera un número TIS basado en los datos proporcionados.
+            </summary>
+            <param name="apellido1">Primer apellido del usuario</param>
+            <param name="apellido2">Segundo apellido del usuario</param>
+            <param name="fechaNacimiento">Fecha de nacimiento del usuario</param>
+            <returns>Una cadena que representa el número TIS generado</returns>
         </member>
         <member name="M:MambrinoVictoria.Programa.CrearPaciente.aceptar_Click(System.Object,System.Windows.RoutedEventArgs)">
             <summary>
@@ -1043,13 +1076,6 @@
             <param name="sender">El objeto que desencadeno el evento</param>
             <param name="e">Los argumentos del evento</param>
         </member>
-        <member name="M:MambrinoVictoria.Programa.VerPaciente.modificar_Click(System.Object,System.Windows.RoutedEventArgs)">
-            <summary>
-            Manejador del evento Click del boton "Modificar"
-            </summary>
-            <param name="sender">El objeto que desencadeno el evento</param>
-            <param name="e">Los argumentos del evento</param>
-        </member>
         <member name="M:MambrinoVictoria.Programa.VerPaciente.InitializeComponent">
             <summary>
             InitializeComponent
@@ -1230,19 +1256,10 @@
             Constructor de la clase MainWindow
             </summary>
         </member>
-        <member name="M:MambrinoVictoria.MainWindow.Window_Loaded(System.Object,System.Windows.RoutedEventArgs)">
+        <member name="M:MambrinoVictoria.MainWindow.ConectarBaseDeDatos">
             <summary>
-            Maneja el evento de carga de la ventana
+            Intenta conectar a la base de datos con los datos predefinidos.
             </summary>
-            <param name="sender">El objeto que desencadeno el evento</param>
-            <param name="e">Los argumentos del evento</param>
-        </member>
-        <member name="M:MambrinoVictoria.MainWindow.Conectar_Click(System.Object,System.Windows.RoutedEventArgs)">
-            <summary>
-            Manejador del evento Click del boton "Conectar"
-            </summary>
-            <param name="sender">El objeto que desencadeno el evento</param>
-            <param name="e">Los argumentos del evento</param>
         </member>
         <member name="M:MambrinoVictoria.MainWindow.InitializeComponent">
             <summary>
@@ -1309,6 +1326,36 @@
             <summary>
               Invalida la propiedad CurrentUICulture del subproceso actual para todas las
               búsquedas de recursos usando esta clase de recursos fuertemente tipados.
+            </summary>
+        </member>
+        <member name="T:XamlGeneratedNamespace.GeneratedInternalTypeHelper">
+            <summary>
+            GeneratedInternalTypeHelper
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateInstance(System.Type,System.Globalization.CultureInfo)">
+            <summary>
+            CreateInstance
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.GetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            GetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.SetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            SetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateDelegate(System.Type,System.Object,System.String)">
+            <summary>
+            CreateDelegate
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.AddEventHandler(System.Reflection.EventInfo,System.Object,System.Delegate)">
+            <summary>
+            AddEventHandler
             </summary>
         </member>
     </members>

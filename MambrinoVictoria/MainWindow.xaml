@@ -5,59 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MambrinoVictoria"
         mc:Ignorable="d"
-        Height="800" Width="1400" Loaded="Window_Loaded">
-
-    <Window.Resources>
-        <ResourceDictionary Source="\HojaEstilos\Estilos.xaml"/>
-    </Window.Resources>
-
-
+        Height="800" Width="1400">
 
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="150*"/>
-            <RowDefinition Height="100*"/>
-            <RowDefinition Height="20*"/>
-            <RowDefinition Height="50*"/>
-            <RowDefinition Height="20*"/>
-            <RowDefinition Height="50*"/>
-            <RowDefinition Height="20*"/>
-            <RowDefinition Height="50*"/>
-            <RowDefinition Height="20*"/>
-            <RowDefinition Height="50*"/>
-            <RowDefinition Height="20*"/>
-            <RowDefinition Height="200*"/>
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="340*"/>
-            <ColumnDefinition Width="200*"/>
-            <ColumnDefinition Width="300*"/>
-            <ColumnDefinition Width="340*"/>
-        </Grid.ColumnDefinitions>
-
-        <Grid.Background>
-            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                <GradientStop Color="#FF97D4E4"/>
-                <GradientStop Color="#FF0D5163" Offset="1"/>
-            </LinearGradientBrush>
-        </Grid.Background>
-        
-        <Label Style="{DynamicResource Titulo1}" Content="Bienvenido a Mambirino" Grid.Column="0" Grid.ColumnSpan="4" HorizontalAlignment="Center"/>
-
-        <Label Style="{DynamicResource Texto1}" Content="Usuario:" Grid.Column="1" Grid.Row="3"/>
-        <Label Style="{DynamicResource Texto1}" Content="Puerto:" Grid.Column="1" Grid.Row="5"/>
-        <Label Style="{DynamicResource Texto1}" Content="Servidor:" Grid.Column="1" Grid.Row="7"/>
-        <Label Style="{DynamicResource Texto1}" Content="Contraseña:" Grid.Column="1" Grid.Row="9"/>
-
-        <TextBox Style="{DynamicResource CuadroTexto2}" x:Name="Usuario" Grid.Column="2" Grid.Row="3" FontFamily="Arial Bold" FontSize="22"/>
-        <TextBox Style="{DynamicResource CuadroTexto2}" x:Name="Puerto" Grid.Column="2" Grid.Row="5" FontFamily="Arial Bold" FontSize="22"/>
-        <TextBox Style="{DynamicResource CuadroTexto2}" x:Name="Servidor" Grid.Column="2" Grid.Row="7" FontFamily="Arial Bold" FontSize="22"/>
-        <PasswordBox x:Name="Contraseña" VerticalContentAlignment="Center" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" HorizontalContentAlignment="Left" Margin="5,3,5,3" FontFamily="Arial Bold" FontSize="25" Grid.Column="2" Grid.Row="9"/>
-
-        <Button x:Name="Conectar" Style="{DynamicResource BotonBasico}" Content="Conectar" Grid.Column="1" Grid.Row="11" Grid.ColumnSpan="2" Click="Conectar_Click"/>
-
-        <Image Source="\Resources\enfermera.png" Grid.Column="3" Grid.Row="2" Grid.RowSpan="9"/>
-        <Image Source="\Resources\hospital.png" Grid.Column="0" Grid.Row="2" Grid.RowSpan="9"/>
-
     </Grid>
 </Window>
